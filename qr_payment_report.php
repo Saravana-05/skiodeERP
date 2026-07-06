@@ -261,7 +261,7 @@ function fnQrrPrint() {
     var from = $('#qrrFromDt').val();
     var to   = $('#qrrToDt').val();
     var header  = '<style>*{font-size:11px;}th{border-bottom:1px solid #000;}td{border-bottom:1px solid #eee;}</style>';
-    header += '<div style="text-align:center;font-size:1.2rem;font-weight:bold;">CITIZEN PRINTS</div>';
+    header += '<div style="text-align:center;font-size:1.2rem;font-weight:bold;">PRINTZY</div>';
     header += '<div style="text-align:center;font-size:1rem;font-weight:bold;">VADAPALANI, CHENNAI - 600026</div>';
     header += '<div style="text-align:center;font-size:1.1rem;font-weight:bold;">QR PAYMENT REPORT</div>';
     header += '<div style="text-align:center;font-size:0.9rem;">Period : ' + from + ' to ' + to + '</div>';

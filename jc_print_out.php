@@ -273,7 +273,7 @@ $sql="SELECT count(jobcard_no) as count_jobcard_no FROM jobcard_details where jo
 
 <div class="printDiv">	 
 	
-			<center><b>CITIZEN PRINTS</b></center>
+			<center><b>PRINTZY</b></center>
 			<center>JOBCARD</center>
 			<div class="row border-bottom border-2">
 			<div class="col-6">
@@ -458,7 +458,7 @@ function generate_qrcode() {
 	var qr_string = "<?php echo addslashes($canara_qr_string); ?>";
 	if (!qr_string) {
 		qr_string = "upi://pay?pa=mrch.midcprin01.sidcin0001.trdcin0001@cnrb"
-		          + "&pn=Citizen+Prints&am=" + adv_gpay
+		          + "&pn=Printzy&am=" + adv_gpay
 		          + "&cu=INR&tn=JC-<?php echo $job_card_no; ?>";
 	}
 	new QRCode(document.getElementById("qrcode"), {
@@ -469,7 +469,7 @@ function generate_qrcode() {
 		colorLight: "#ffffff",
 		correctLevel: QRCode.CorrectLevel.H
 	});
-	$("#bank_ac_name").text("Citizen Prints");
+	$("#bank_ac_name").text("Printzy");
 }
 generate_qrcode();
 </script>

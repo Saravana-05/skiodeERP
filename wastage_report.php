@@ -83,7 +83,7 @@ function printWastageReportDiv(divId) {
 	var header='';
 	
 	header=header+'<style>*{font-size:12px;}th {border-bottom:1px solid #000;"}td {border-bottom:1px solid #eee;"}@media print {  .noPrint{	display:none;	}}</style><div style="text-align:center;">';
-	header=header+'<div style="text-align:center;font-size:1.2rem;font-weight:bold;">CITIZEN PRINTS</div>';
+	header=header+'<div style="text-align:center;font-size:1.2rem;font-weight:bold;">PRINTZY</div>';
 	header=header+'<div style="text-align:center;font-size:1.2rem;font-weight:bold;">VADAPALANI, CHENNAI - 600026, TAMILNADU</div>';
 	header=header+'<div style="text-align:center;font-size:1.2rem;font-weight:bold;">WASTAGE REPORTS</div>';
 	header=header+'<div style="text-align:center;font-size:1rem;font-weight:bold;">For Period : '+fromDt+' - '+toDt+'</div>';

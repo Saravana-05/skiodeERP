@@ -465,9 +465,9 @@ $sql="SELECT count(jobcard_no) as count_jobcard_no FROM jobcard_details where jo
 	<div class="row" id="printHeader">
 		<div class="col-12 p-0">
 			 <div class="header">
-				<h1>CITIZEN PRINTS</h1>
+				<h1>PRINTZY</h1>
 				<h2>DIGITAL PRESS</h2>
-				<img src="img/invoice_cp_logo.png"  style="position: absolute;top:5px;right:0;"/>
+				<img src="img/printzy_logo.png"  style="position: absolute;top:5px;right:0;"/>
 				<div class="wave">
 				  <svg viewBox="0 0 1000 100" preserveAspectRatio="none">
 					<path d="M0,80 C360,0 1080,160 1440,80 L1440,100 L0,100 Z"></path>
@@ -711,7 +711,7 @@ $sql="SELECT count(jobcard_no) as count_jobcard_no FROM jobcard_details where jo
 				</div>
 			</div>
 			<div class="col-3">
-				<center><b>For CITIZEN PRINTS</b></center>
+				<center><b>For PRINTZY</b></center>
 			</div>
 		</div>
 		<div  style="padding-left:0.4rem;display:none;">Username : <b><?php echo $_SESSION["user_type"]; ?></b></div>
@@ -791,7 +791,7 @@ function generate_qrcode() {
 	var qr_string = "<?php echo addslashes($canara_qr_string); ?>";
 	if (!qr_string) {
 		qr_string = "upi://pay?pa=mrch.midcprin01.sidcin0001.trdcin0001@cnrb"
-		          + "&pn=Citizen+Prints&am=" + bal_gpay
+		          + "&pn=Printzy&am=" + bal_gpay
 		          + "&cu=INR&tn=SI-<?php echo $si_no; ?>";
 	}
 	new QRCode(document.getElementById("qrcode"), {
@@ -802,6 +802,6 @@ function generate_qrcode() {
 		colorLight: "#ffffff",
 		correctLevel: QRCode.CorrectLevel.H
 	});
-	$("#username-slab").text("Citizen Prints");
+	$("#username-slab").text("Printzy");
 }
 </script>

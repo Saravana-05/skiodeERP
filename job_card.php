@@ -771,7 +771,7 @@ display:none;">
       </div>
       <div class="modal-body">
 		<div class="contentDiv" id="contentQrcodeDiv" style="display:block;">
-			<h1>CITIZEN PRINTS</h1>
+			<h1>PRINTZY</h1>
 			<h2>DIGITAL PRESS</h2><br>
 			<h3>SCAN TO PAY</h3>
 			<div class="row">
@@ -2813,8 +2813,8 @@ function _canaraRenderQR(qr_string) {
 		colorDark: "#000000", colorLight: "#ffffff",
 		correctLevel: QRCode.CorrectLevel.M
 	});
-	$("#username-slab").text("CITIZEN PRINTS");
-	$("#qr_jc_user_name").text("CITIZEN PRINTS");
+	$("#username-slab").text("PRINTZY");
+	$("#qr_jc_user_name").text("PRINTZY");
 }
 
 function fnParkJCForQRPayment() {

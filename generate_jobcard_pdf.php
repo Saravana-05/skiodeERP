@@ -43,8 +43,8 @@ $pdf->SetDrawColor(0, 0, 0); // black
 $pdf->Rect($margin, $margin, $page_width - 2 * $margin, $page_height - 2 * $margin);
 
 // --- Top Header ---
-if (file_exists('logo.png')) {
-    $pdf->Image('logo.png', 15, 10, 45);
+if (file_exists('img/printzy_logo.png')) {
+    $pdf->Image('img/printzy_logo.png', 15, 10, 45);
 }
 $pdf->SetFont('helvetica', '', 10);
 $pdf->SetXY(15, 30);
@@ -137,7 +137,7 @@ $style = array(
 $pdf->write2DBarcode('https://www.youtube.com/watch?v=k49fxN6jcPg', 'QRCODE,H', 60, $pdf->GetY(), 30, 30, $style, 'C');
 
 $pdf->SetXY(150, $pdf->GetY());
-$pdf->Cell(0,20, 'For Citizen Prints', 0, 0, 'R');
+$pdf->Cell(0,20, 'For Printzy', 0, 0, 'R');
 
 // --- Output PDF ---
 $pdf->Output('jobcard_' . $data['jobcard_no'] . '.pdf', 'I');

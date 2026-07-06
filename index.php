@@ -8,7 +8,7 @@ session_write_close();
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Citizen Prints</title>
+    <title>Printzy</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -187,7 +187,7 @@ if(!isset($_SESSION['logged_in']))
 ?>
     <div class="login-page-bg">
         <h1 class="text-center mb-3">
-            <img loading="lazy" src="img/cp_logo_256px.png" alt="Citizen Prints">
+            <img loading="lazy" src="img/printzy_logo.png" alt="Printzy">
         </h1>
         <div class="card" style="width:100%;max-width:420px;">
             <div class="card-body">

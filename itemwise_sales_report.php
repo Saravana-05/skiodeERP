@@ -216,7 +216,7 @@ function fnPrintReport() {
     var from = $('#fromDtTxt').val();
     var to   = $('#toDtTxt').val();
     var header = '<style>*{font-size:12px;}th{border-bottom:1px solid #000;}td{border-bottom:1px solid #eee;}</style>';
-    header += '<div style="text-align:center;font-size:1.2rem;font-weight:bold;">CITIZEN PRINTS</div>';
+    header += '<div style="text-align:center;font-size:1.2rem;font-weight:bold;">PRINTZY</div>';
     header += '<div style="text-align:center;font-size:1.2rem;font-weight:bold;">VADAPALANI, CHENNAI - 600026, TAMILNADU</div>';
     header += '<div style="text-align:center;font-size:1.2rem;font-weight:bold;">ITEMWISE SALES REPORT</div>';
     header += '<div style="text-align:center;font-size:1rem;font-weight:bold;">For Period : '+from+' - '+to+'</div>';

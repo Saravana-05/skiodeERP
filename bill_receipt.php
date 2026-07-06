@@ -296,7 +296,7 @@ log_this($sql);
 	<div class="row" id="printHeader">
 		<div class="col-6 " style="border-right: 1px solid #000;">
 		<div style="text-align:center">
-			<img loading="lazy" class="logo_width mt-3 mb-3" src="img/cp_logo_sq.png" alt="Citizen Prints" style="">
+			<img loading="lazy" class="logo_width mt-3 mb-3" src="img/printzy_logo.png" alt="Printzy" style="">
 		</div>
 			<p><i class="fa-solid fa-location-dot" ></i> No.4,100 feet road, Vadapalani,</p>
 			<p>Chennai - 600026</p>
@@ -469,7 +469,7 @@ log_this($sql);
 			</div>
 			<div class="col-4">
 			
-				<p><b>For CITIZEN PRINTS</b></p>				<br />
+				<p><b>For PRINTZY</b></p>				<br />
 				<br />
 			</div>
 		</div>
@@ -511,7 +511,7 @@ function generate_qrcode() {
 	var qr_string = "<?php echo addslashes($canara_qr_string); ?>";
 	if (!qr_string) {
 		qr_string = "upi://pay?pa=mrch.midcprin01.sidcin0001.trdcin0001@cnrb"
-		          + "&pn=Citizen+Prints&am=" + bal_gpay
+		          + "&pn=Printzy&am=" + bal_gpay
 		          + "&cu=INR&tn=SQ-<?php echo $sq_no; ?>";
 	}
 	new QRCode(document.getElementById("qrcode"), {
@@ -522,6 +522,6 @@ function generate_qrcode() {
 		colorLight: "#ffffff",
 		correctLevel: QRCode.CorrectLevel.H
 	});
-	$("#username-slab").text("Citizen Prints");
+	$("#username-slab").text("Printzy");
 }
 </script>

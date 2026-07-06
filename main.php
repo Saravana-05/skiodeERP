@@ -24,14 +24,14 @@ include_once "connect_db.php";
 <aside class="cp-sidebar bg-darkblue" id="cpSidebar">
 	<div class="offcanvas-md offcanvas-end bg-darkblue" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
 		<div class="offcanvas-header">
-			<h5 class="offcanvas-title" id="sidebarMenuLabel">Citizen Prints</h5>
+			<h5 class="offcanvas-title" id="sidebarMenuLabel">Printzy</h5>
 			<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
 		</div>
 		<div class="offcanvas-body d-md-flex flex-column p-0 overflow-y-auto">
 			<!-- Sidebar brand -->
 			<div class="cp-sidebar-brand">
-				<img loading="lazy" src="img/cp_logo_64px.png" alt="CP" />
-				<span>Citizen Prints</span>
+				<img loading="lazy" src="img/printzy_logo.png" alt="Printzy" />
+				<span>Printzy</span>
 			</div>
 			<ul class="sidebar-nav">
                     <!--<li class="sidebar-header">

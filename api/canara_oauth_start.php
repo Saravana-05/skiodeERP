@@ -26,7 +26,7 @@ $token_expiry = $token_exists ? date('d-M-Y H:i:s', $tokens['expires_at']) : nul
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Canara Bank OAuth – Citizen Prints ERP</title>
+    <title>Canara Bank OAuth – Printzy ERP</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f4f4f4; display: flex; justify-content: center; padding: 40px 20px; }
         .box { background: #fff; border-radius: 8px; padding: 32px 36px; max-width: 520px; width: 100%; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }

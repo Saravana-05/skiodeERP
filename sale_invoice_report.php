@@ -295,7 +295,7 @@ function printSaleInvoiceDiv(divId) {
 	var toDt=$('#toDtTxt').val();
 	var header='';
 	header+='<style>*{font-family:arial;font-size:1vw;}.summary_title{ text-align:center;font-size:1.5vw;font-weight:bolder;} th {border-bottom:1px solid #000;"}td {border-bottom:1px solid #eee;"} td{border-bottom:1px dotted grey;}}</style><div style="text-align:center;">';
-	header+='<div style="text-align:center;font-size:1.8rem;font-weight:bold;">CITIZEN PRINTS</div>';
+	header+='<div style="text-align:center;font-size:1.8rem;font-weight:bold;">PRINTZY</div>';
 	header+='<div style="text-align:center;font-size:1.2rem;font-weight:bold;">VADAPALANI, CHENNAI - 600026, TAMILNADU</div>';
 	header+='<div style="text-align:center;font-size:1.2rem;font-weight:bold;">SALES INVOICE REPORT</div>';
 	header+='<div style="text-align:center;font-size:1rem;font-weight:bold;">For Period : '+fromDt+' - '+toDt+'</div>';

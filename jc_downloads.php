@@ -23,7 +23,7 @@ $logo_b64 = '/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAAB
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Citizen Prints — JC Design Files</title>
+<title>Printzy — JC Design Files</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"/>
@@ -829,10 +829,10 @@ table.ftbl tbody tr:last-child td { border-bottom: none; }
 <header class="topbar">
     <div class="tb-left">
         <div class="tb-logo">
-            <img src="data:image/jpeg;base64,<?= $logo_b64 ?>" alt="Citizen Prints"/>
+            <img src="img/printzy_logo.png" alt="Printzy"/>
         </div>
         <div class="tb-brand">
-            <span class="b1">Citizen Prints</span>
+            <span class="b1">Printzy</span>
             <span class="b2">JC Design Files</span>
         </div>
         <div class="tb-sep"></div>
