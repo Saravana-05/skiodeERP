@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Job Card - Citizen Prints</title>
+  <style>
+    :root{
+      --accent:#111827;
+      --muted:#6b7280;
+      --paper:#ffffff;
+      --border:#e5e7eb;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    body{background:#f3f4f6;padding:28px;}
+    .card-wrap{max-width:420px;margin:0 auto}
+    .job-card{
+      background:var(--paper);
+      border:1px solid var(--border);
+      border-radius:8px;
+      padding:18px;
+      box-shadow:0 6px 18px rgba(15,23,42,0.06);
+    }
+    .brand{
+      display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;
+    }
+    .brand-left{line-height:1}
+    .brand h1{font-size:18px;margin:0;letter-spacing:2px;color:var(--accent)}
+    .brand p{margin:0;font-size:11px;color:var(--muted);letter-spacing:2px}
+
+    .title-center{ text-align:center; margin:12px 0 6px;}
+    .title-center h2{margin:0;font-size:16px;letter-spacing:3px}
+    .subtitle{font-size:10px;color:var(--muted);margin-top:6px;text-align:center}
+
+    .grid{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
+    .field{font-size:13px}
+    .small{font-size:12px;color:var(--muted)}
+
+    .payment{display:flex;justify-content:space-between;align-items:center;padding:10px;border:1px dashed var(--border);border-radius:6px;margin:12px 0}
+    .amount{font-weight:700;font-size:18px}
+    .scan{display:flex;gap:12px;align-items:center}
+    .qr{width:90px;height:90px;background:#f8fafc;border:1px solid var(--border);display:flex;align-items:center;justify-content:center}
+    .qr img{max-width:86px;max-height:86px}
+
+    .meta{display:flex;justify-content:space-between;margin-top:10px}
+    .meta .left,.meta .right{font-size:12px}
+
+    .footer{display:flex;justify-content:space-between;align-items:center;margin-top:14px;border-top:1px solid var(--border);padding-top:10px}
+    .page{font-size:12px;color:var(--muted)}
+
+    /* print friendly */
+    @media print{
+      body{background:white}
+      .card-wrap{box-shadow:none}
+      .job-card{border:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="card-wrap">
+    <div class="job-card" role="region" aria-label="Job Card">
+      <div class="brand">
+        <div class="brand-left">
+          <h1>Untitled-2</h1>
+          <p>CITIZEN PRINTS</p>
+        </div>
+        <div style="text-align:right">
+          <div class="small">DIGITAL&nbsp;PRESS</div>
+          <div style="margin-top:6px;font-weight:700">JOB CARD</div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <div class="field">NO : <strong id="job-no">________</strong></div>
+          <div class="field" style="margin-top:6px">DATE : <strong id="job-date">________</strong></div>
+        </div>
+        <div style="text-align:right">
+          <div class="small">Rs :</div>
+          <div class="amount">1000/-</div>
+        </div>
+      </div>
+
+      <div class="payment">
+        <div>
+          <div style="font-size:12px;font-weight:700">SCAN TO PAY</div>
+          <div class="small" style="margin-top:6px">Present this QR to make payment</div>
+        </div>
+        <div class="scan">
+          <div class="qr" aria-hidden="true">
+            <!-- Replace src with extracted QR from PDF if available -->
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><rect width='100%' height='100%' fill='%23f3f4f6'/><text x='50%' y='50%' font-size='8' text-anchor='middle' fill='%23666' dy='.3em'>QR</text></svg>" alt="QR code placeholder" />
+          </div>
+        </div>
+      </div>
+
+      <div class="title-center">
+        <h2>JOB CARD</h2>
+        <div class="subtitle">Page 1</div>
+      </div>
+
+      <div class="meta">
+        <div class="left small">With life cover and tax free income</div>
+        <div class="right small">100% guaranteed</div>
+      </div>
+
+      <div class="footer">
+        <div class="small">Also get invested money back at maturity</div>
+        <div class="page">Page 1</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

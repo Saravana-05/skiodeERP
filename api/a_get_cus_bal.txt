@@ -1,0 +1,1 @@
+select sum(amount) as bal from journal_details where achead='ASST_DIR_CMCARI';

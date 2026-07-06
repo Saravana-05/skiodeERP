@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Code Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+  
+<style>
+ 
+.contentDiv
+{
+	border:1px solid #000;
+	border-radius:10px;
+	margin:10px;
+	padding:10px;
+	width:500px;
+	background-color:#d4edfc;
+}
+.contentDiv h1 {
+    font-size: 38px;
+    color: #000;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.contentDiv h2 {
+    font-size: 16px;
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+   margin-left:37%;
+    z-index: 2;
+	letter-spacing: 1px;
+}
+  .contentDiv h2::before{
+      content: "";
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    left: -82px;
+	}
+    .contentDiv h2::after {
+          content: "";
+    position: absolute;
+    top: 50%;
+    width: 75px;
+    height: 2px;
+    background-color: red;
+    left: 130px;
+}
+.contentDiv h3{
+    font-size: 14px;
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative; 
+	letter-spacing: 1px;
+	text-align:center;
+	width:100%;
+}
+.contentDiv h4 {
+    font-size: 13px;
+    color: #000; 
+    margin-top: 10px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative; 
+	letter-spacing: 1px;
+	text-align:center;
+	width:100%;
+} 
+.qrcodeDiv
+{
+	padding:10px;
+	text-align:center;
+}
+#qrcode{
+width:120px;
+margin:auto;
+}
+</style>
+<div class="contentDiv" id="contentQrcodeDiv">
+	<h1>CITIZEN PRINTS</h1>
+	<h2>DIGITAL PRESS</h2><br>
+	<h3>SCAN TO PAY</h3>
+	<div class="row">
+		<div class="col-4">
+			JOB CARD NO : 
+		</div>
+		<div class="col-4 qrcodeDiv">
+			<div id="qrcode"></div>
+		</div>
+		<div class="col-4">
+			JOB CARD DATE : 
+		</div>
+	</div>
+	<h4>1000/-</h4>
+</div>
+  
+  <button id="generateBtn">Generate</button>
+  <button id="click2copy">Copy 2 Clipboard</button>
+	<img id="output" alt="Captured image will appear here">
+	
+  <canvas id="myCanvas" width="300" height="150" style="border:1px solid black;"></canvas>
+  <button id="copyBtn">Copy to Clipboard</button>
+  <button id="copyImgBtn">COPY IMG</button>
+  <!-- jQuery first -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <!-- QR Code library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- ✅ Now all your JavaScript -->
+  <script>
+    // Ensure DOM and jQuery are ready
+    $(document).ready(function () {
+      // Generate QR button
+      $('#generateBtn').click(generate_qrcode);
+generate_qrcode();
+      // Copy QR canvas
+   $("#click2copy").on("click", async function () {
+      const element = document.getElementById("contentQrcodeDiv");
+
+      // capture div as canvas
+      const canvas = await html2canvas(element);
+      $("#preview").attr("src", canvas.toDataURL("image/png"));
+
+      // convert to blob for clipboard
+      canvas.toBlob(async function (blob) {
+        try {
+          await navigator.clipboard.write([
+            new ClipboardItem({ "image/png": blob })
+          ]);
+          alert("Image copied to clipboard!");
+        } catch (err) {
+          console.error("Failed to copy: ", err);
+          alert("Copy failed: " + err);
+        }
+      });
+     
+
+
+        // download image
+       // let link = document.createElement("a");
+      //  link.download = "job-card.png";
+       // link.href = canvas.toDataURL("image/png");
+      //  link.click();
+		
+ 
+       /* const canvasdiv = document.getElementById('contentQrcodeDiv');
+        const canvas = canvasdiv.getElementsByTagName('canvas')[0];
+
+        canvas.toBlob(blob => {
+          const item = new ClipboardItem({ 'image/png': blob });
+          navigator.clipboard.write([item])
+            .then(() => alert('Canvas copied to clipboard!'))
+            .catch(err => alert('Copy failed: ' + err));
+        });*/
+      });
+
+      // Copy QR image
+      $('#copyImgBtn').click(async () => {
+        const canvasdiv = document.getElementById('output');
+        const img = canvasdiv.getElementsByTagName('img')[0];
+
+        if (!img) {
+          alert('No QR image found!');
+          return;
+        }
+
+        try {
+          const response = await fetch(img.src);
+          const blob = await response.blob();
+          const item = new ClipboardItem({ [blob.type]: blob });
+          await navigator.clipboard.write([item]);
+          alert('Image copied to clipboard!');
+        } catch (err) {
+          alert('Failed to copy image: ' + err);
+        }
+      });
+    });
+
+    function generate_qrcode() {
+      let adv_gpay = 501;
+      adv_gpay = parseFloat(adv_gpay);
+      $("#qrcode").html("");
+
+      let URL = "upi://pay?pa=239881961545892lakh@cnrb&pn=LAKSHMI%20M&am=" + adv_gpay;
+      let username = "LAKSHMI M";
+
+      if (adv_gpay > 1999) {
+        URL = "upi://pay?pa=250242045001739@cnrb&pn=CITIZEN PRINTS&mc=5111&tr=1234567887654321&am=" + adv_gpay;
+        username = "CITIZEN PRINTS";
+      }
+
+      if (adv_gpay > 0) {
+        new QRCode(document.getElementById("qrcode"), {
+          text: URL,
+          width: 120,
+          height: 120,
+          colorDark: "#000000",
+          colorLight: "#ffffff",
+          correctLevel: QRCode.CorrectLevel.H
+        });
+      }
+    }
+  </script>
+</body>
+</html>

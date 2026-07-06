@@ -1,0 +1,19 @@
+<img id="myImage" src="img/dashboard.png" alt="Example Image">
+<button id="copyBtn">Copy Image to Clipboard</button>
+
+<script>
+  document.getElementById('copyBtn').addEventListener('click', async () => {
+    const img = document.getElementById('myImage');
+
+    try {
+      const response = await fetch(img.src); // Fetch the image
+      const blob = await response.blob();     // Convert to blob
+      const item = new ClipboardItem({ [blob.type]: blob });
+
+      await navigator.clipboard.write([item]); // Copy to clipboard
+      alert('Image copied to clipboard!');
+    } catch (err) {
+      console.error('Failed to copy image:', err);
+    }
+  });
+</script>

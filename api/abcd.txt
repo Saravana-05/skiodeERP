@@ -1,0 +1,1 @@
+Select sum(balance_gpay) as Sales_CA  from sales_quotation_master where quotation_dt_tm BETWEEN '2025-12-01 00:00:00' and '2025-12-01 23:59:59' and balance_gpay>1999;

@@ -1,0 +1,1174 @@
+2025-10-25 10:35:56 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 10:35:56','SB','Balance SB GPAY for SQ:1 JC: 2',485,'SQ_1')
+2025-10-25 10:39:28 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 10:39:28','CASH','Balance Cash for SQ:2 JC: 3',150,'SQ_2')
+2025-10-25 10:48:14 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 10:48:14','CASH','Balance Cash for SQ:3 JC: 4',10,'SQ_3')
+2025-10-25 10:57:46 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 10:57:46','SB','Balance SB GPAY for SQ:4 JC: 5',1200,'SQ_4')
+2025-10-25 11:05:34 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 11:05:34','SB','Balance SB GPAY for SQ:5 JC: 6',152,'SQ_5')
+2025-10-25 15:56:21 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 15:56:21','SB','Balance SB GPAY for SQ:6 JC: 7',1630,'SQ_6')
+2025-10-25 18:04:19 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 18:04:19','SB','Balance SB GPAY for SQ:7 JC: 8',75,'SQ_7')
+2025-10-25 18:14:03 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 18:14:03','SB','Balance SB GPAY for SQ:8 JC: 9',139,'SQ_8')
+2025-10-25 18:26:47 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 18:26:47','CASH','Balance Cash for SQ:9 JC: 10',125,'SQ_9')
+2025-10-25 18:26:47 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-25 18:26:47','SB','Balance SB GPAY for SQ:9 JC: 10',500,'SQ_9')
+2025-10-27 17:23:19 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-27','WWPC','Purchase Voucher No:1',6065,'PU_1'),('2025-10-27','PURCHASE','Purchase Voucher No:1',-6065,'PU_1')
+2025-10-27 17:25:54 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-27','RATHNA','Purchase Voucher No:2',10500,'PU_2'),('2025-10-27','PURCHASE','Purchase Voucher No:2',-10500,'PU_2')
+2025-10-27 17:27:26 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-26','WWPC','Purchase Voucher No:3',1850,'PU_3'),('2025-10-26','PURCHASE','Purchase Voucher No:3',-1850,'PU_3')
+2025-10-27 17:34:31 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-27 17:34:31','CASH','Balance Cash for SQ:10 JC: 11',820,'SQ_10')
+2025-10-27 17:34:31 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-27 17:34:31','CA','Balance CA GPAY for SQ:10 JC: 11',4000,'SQ_10')
+2025-10-28 14:20:39 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-28','ACHENNAI','Payment Voucher :1',1,'RCPTV_1'),('2025-10-28','CA','Payment Voucher :1',-1,'RCPTV_1')
+2025-10-30 10:37:47 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-30 10:37:47','SALES','Quote :11',2649.5,'SQ_11'),('2025-10-30 10:37:47','BRIXEN','Quote :11',-2649.5,'SQ_11')
+2025-10-30 10:38:04 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-30 10:38:04','SALES','Quote :12',730,'SQ_12'),('2025-10-30 10:38:04','AJP','Quote :12',-730,'SQ_12')
+2025-10-30 10:38:32 update sales_quotation_master set prev_balance=2649.5 where quotation_no=13;
+2025-10-30 10:38:32 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-30 10:38:32','SALES','Quote :13',2520,'SQ_13'),('2025-10-30 10:38:32','BRIXEN','Quote :13',-2520,'SQ_13')
+2025-10-30 10:39:13 update sales_quotation_master set prev_balance=730 where quotation_no=14;
+2025-10-30 10:39:13 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-30 10:39:13','SALES','Quote :14',2410,'SQ_14'),('2025-10-30 10:39:13','AJP','Quote :14',-2410,'SQ_14')
+2025-10-30 10:39:53 update sales_quotation_master set prev_balance=5169.5 where quotation_no=15;
+2025-10-30 10:39:53 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-30 10:39:53','SALES','Quote :15',2250,'SQ_15'),('2025-10-30 10:39:53','BRIXEN','Quote :15',-2250,'SQ_15')
+2025-10-30 10:40:59 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-30','BRIXEN','Payment Voucher :1',1000,'RCPTV_1'),('2025-10-30','CA','Payment Voucher :1',-1000,'RCPTV_1')
+2025-10-30 10:42:58 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-30','AJP','Payment Voucher :2',730,'RCPTV_2'),('2025-10-30','CA','Payment Voucher :2',-730,'RCPTV_2')
+2025-10-31 21:40:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-31 21:40:23','SB','Balance SB GPAY for SQ:16 JC: 21',543,'SQ_16')
+2025-10-31 21:41:52 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-31 21:41:52','CASH','Balance Cash for SQ:17 JC: 22',1713,'SQ_17')
+2025-10-31 21:44:04 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-31 21:44:04','SB','Balance SB GPAY for SQ:18 JC: 23',1480.9,'SQ_18')
+2025-10-31 22:01:55 update sales_quotation_master set prev_balance=2410 where quotation_no=19;
+2025-10-31 22:01:55 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-31 22:01:55','SALES','Quote :19',1630,'SQ_19'),('2025-10-31 22:01:55','AJP','Quote :19',-1630,'SQ_19')
+2025-10-31 22:12:45 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-10-31 22:12:45','CA','Balance CA GPAY for SQ:20 JC: 25',2118,'SQ_20')
+2025-11-01 11:24:18 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-01 11:24:18','SALES','Quote :21',6240,'SQ_21'),('2025-11-01 11:24:18','BRANDWISE','Quote :21',-6240,'SQ_21')
+2025-11-01 11:34:46 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-01 11:34:46','SB','Balance SB GPAY for SQ:22 JC: 27',955.8,'SQ_22')
+2025-11-04 16:48:03 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 16:48:03','SALES','Quote :23',1200,'SQ_23'),('2025-11-04 16:48:03','AMSLER','Quote :23',-1200,'SQ_23')
+2025-11-04 16:48:15 update sales_quotation_master set prev_balance=1200 where quotation_no=24;
+2025-11-04 16:48:15 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 16:48:15','SALES','Quote :24',1000,'SQ_24'),('2025-11-04 16:48:15','AMSLER','Quote :24',-1000,'SQ_24')
+2025-11-04 21:18:04 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 21:18:04','SB','Balance SB GPAY for SQ:25 JC: 30',1200,'SQ_25')
+2025-11-04 21:37:26 update sales_quotation_master set prev_balance=-1 where quotation_no=26;
+2025-11-04 21:37:26 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 21:37:26','SALES','Quote :26',4120,'SQ_26'),('2025-11-04 21:37:26','ACHENNAI','Quote :26',-4120,'SQ_26')
+2025-11-04 21:39:48 update sales_quotation_master set prev_balance=4119 where quotation_no=27;
+2025-11-04 21:39:48 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 21:39:48','SALES','Quote :27',2563,'SQ_27'),('2025-11-04 21:39:48','ACHENNAI','Quote :27',-2563,'SQ_27')
+2025-11-04 21:41:44 update sales_quotation_master set prev_balance=6682 where quotation_no=28;
+2025-11-04 21:41:44 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 21:41:44','SALES','Quote :28',3120,'SQ_28'),('2025-11-04 21:41:44','ACHENNAI','Quote :28',-3120,'SQ_28')
+2025-11-04 21:56:13 update sales_quotation_master set prev_balance=4040 where quotation_no=29;
+2025-11-04 21:56:13 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 21:56:13','SALES','Quote :29',1180,'SQ_29'),('2025-11-04 21:56:13','AJP','Quote :29',-1180,'SQ_29')
+2025-11-04 22:09:48 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-04 22:09:48','SB','Balance SB GPAY for SQ:30 JC: 35',590,'SQ_30')
+2025-11-05 00:34:12 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05 00:34:12','SALES','Quote :31',422,'SQ_31'),('2025-11-05 00:34:12','MARKMETRO','Quote :31',-422,'SQ_31')
+2025-11-05 00:34:41 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05 00:34:41','SALES','Quote :32',2475,'SQ_32'),('2025-11-05 00:34:41','AVIRA','Quote :32',-2475,'SQ_32')
+2025-11-05 00:35:04 update sales_quotation_master set prev_balance=422 where quotation_no=33;
+2025-11-05 00:35:04 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05 00:35:04','SALES','Quote :33',4663,'SQ_33'),('2025-11-05 00:35:04','MARKMETRO','Quote :33',-4663,'SQ_33')
+2025-11-05 00:35:43 update sales_quotation_master set prev_balance=2475 where quotation_no=34;
+2025-11-05 00:35:43 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05 00:35:43','SALES','Quote :34',2590,'SQ_34'),('2025-11-05 00:35:43','AVIRA','Quote :34',-2590,'SQ_34')
+2025-11-05 00:38:07 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05','MARKMETRO','Payment Voucher :3',3000,'RCPTV_3'),('2025-11-05','CA','Payment Voucher :3',-3000,'RCPTV_3')
+2025-11-05 00:39:12 update sales_quotation_master set prev_balance=2085 where quotation_no=35;
+2025-11-05 00:39:12 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05 00:39:11','SALES','Quote :35',3183,'SQ_35'),('2025-11-05 00:39:11','MARKMETRO','Quote :35',-3183,'SQ_35')
+2025-11-05 00:40:09 update sales_quotation_master set prev_balance=5977 where quotation_no=36;
+2025-11-05 00:40:09 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05 00:40:09','SALES','Quote :36',2649.5,'SQ_36'),('2025-11-05 00:40:09','AVIRA','Quote :36',-2649.5,'SQ_36')
+2025-11-05 00:51:15 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05','AVIRA','Payment Voucher :4',5000,'RCPTV_4'),('2025-11-05','SB','Payment Voucher :4',-5000,'RCPTV_4')
+2025-11-05 00:51:58 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-05','AVIRA','Payment Voucher :5',2000,'RCPTV_5'),('2025-11-05','CASH','Payment Voucher :5',-2000,'RCPTV_5')
+2025-11-06 19:47:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-04 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (23,24);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (27,28);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (26);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (29);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (25);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (30);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (32,34);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (31,33,35);
+2025-11-06 19:47:11 select * from sales_quotation_master where quotation_no in (36);
+2025-11-06 19:50:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 20:42:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 20:44:27 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-06 20:44:27','CASH','Advance Cash for JC:42',200,'JC_42')
+2025-11-06 20:44:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 20:45:41 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-06 20:45:41','SB','Balance SB GPAY for SQ:37 JC: 42',800,'SQ_37')
+2025-11-06 20:45:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 20:52:08 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-06 20:52:08','CASH','Advance Cash for JC:43',500,'JC_43')
+2025-11-06 20:52:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 20:56:58 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-06 20:56:58','CA','Balance CA GPAY for SQ:38 JC: 43',2180,'SQ_38')
+2025-11-06 20:57:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 20:59:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:01:12 update sales_quotation_master set prev_balance=5220 where quotation_no=39;
+2025-11-06 21:01:12 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-06 21:01:12','SALES','Quote :39',10440,'SQ_39'),('2025-11-06 21:01:12','AJP','Quote :39',-10440,'SQ_39')
+2025-11-06 21:01:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:04:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:07:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:09:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:13:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:17:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:17:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:18:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:19:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:19:27 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:24:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:24:52 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:25:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:25:52 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:25:52 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:25:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:25:52 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:25:52 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:36:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:36:37 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:36:37 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:39:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:39:51 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:39:51 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:41:43 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:41:43 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:41:43 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:43:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:43:04 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:43:04 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:53:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:53:50 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:53:50 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:54:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:54:04 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:54:04 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:55:19 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-06 21:55:19','SB','Balance SB GPAY for SQ:40 JC: 45',200,'SQ_40')
+2025-11-06 21:55:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:55:21 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:55:21 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 21:56:00 update sales_quotation_master set prev_balance=17539 where quotation_no=41;
+2025-11-06 21:56:00 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-06 21:56:00','SALES','Quote :41',8360,'SQ_41'),('2025-11-06 21:56:00','AJP','Quote :41',-8360,'SQ_41')
+2025-11-06 21:56:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 21:56:05 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 21:56:05 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:07:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:07:02 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:07:02 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:10:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:10:51 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:10:51 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:13:08 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:13:08 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:13:08 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:27:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:27:30 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:27:30 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:33:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:33:19 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:33:19 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:34:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:34:48 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:34:48 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:44:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:44:26 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:44:26 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:48:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:48:14 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:48:14 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 22:51:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 22:51:06 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 22:51:06 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 23:00:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 23:00:53 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 23:00:53 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 23:02:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 23:02:42 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 23:02:42 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 23:02:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 23:02:47 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 23:02:47 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 23:03:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 23:03:19 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 23:03:19 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 23:03:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 23:03:22 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 23:03:22 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 23:03:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 23:03:56 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 23:03:56 select * from sales_quotation_master where quotation_no in (38);
+2025-11-06 23:07:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-06 23:07:09 select * from sales_quotation_master where quotation_no in (39);
+2025-11-06 23:07:09 select * from sales_quotation_master where quotation_no in (38);
+2025-11-07 09:49:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-07 00:00:00' and '2025-11-07 23:59:59' 
+2025-11-07 09:49:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-07 00:00:00' and '2025-11-07 23:59:59' 
+2025-11-07 09:50:17 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-07 00:00:00' and '2025-11-07 23:59:59' 
+2025-11-07 13:43:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-07 00:00:00' and '2025-11-07 23:59:59' 
+2025-11-07 16:38:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-07 00:00:00' and '2025-11-07 23:59:59' 
+2025-11-07 16:38:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-07 00:00:00' and '2025-11-07 23:59:59' 
+2025-11-07 16:46:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-07 00:00:00' and '2025-11-07 23:59:59' 
+2025-11-09 16:54:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:15:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:23:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:24:01 delete from jobcard_master where jobcard_no=47;
+2025-11-09 17:24:01 delete from jobcard_details where jobcard_no=47;
+2025-11-09 17:24:01 delete from job_card_wise_material_usage where jobcard_no=47;
+2025-11-09 17:24:01 delete from job_card_wise_machine_usage where jobcard_no=47;
+2025-11-09 17:24:01 delete from journal_details where link_key='JC_47';
+2025-11-09 17:24:01 Failed
+2025-11-09 17:24:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:25:11 delete from jobcard_master where jobcard_no=48;
+2025-11-09 17:25:11 delete from jobcard_details where jobcard_no=48;
+2025-11-09 17:25:11 delete from job_card_wise_material_usage where jobcard_no=48;
+2025-11-09 17:25:11 delete from job_card_wise_machine_usage where jobcard_no=48;
+2025-11-09 17:25:11 delete from journal_details where link_key='JC_48';
+2025-11-09 17:25:11 Failed
+2025-11-09 17:26:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:28:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:31:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:33:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:40:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:40:48 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 17:40:48','CASH','Balance Cash for SQ:42 JC: 47',20,'SQ_42')
+2025-11-09 17:41:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:41:22 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 17:41:22','SB','Balance SB GPAY for SQ:43 JC: 48',150,'SQ_43')
+2025-11-09 17:41:25 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:41:48 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 17:41:48','CASH','Balance Cash for SQ:44 JC: 49',81,'SQ_44')
+2025-11-09 17:41:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:42:35 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 17:42:35','CASH','Balance Cash for SQ:45 JC: 50',9,'SQ_45')
+2025-11-09 17:42:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:42:55 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 17:42:55','SB','Balance SB GPAY for SQ:46 JC: 51',100,'SQ_46')
+2025-11-09 17:42:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 17:43:12 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 17:43:12','CASH','Balance Cash for SQ:47 JC: 52',65,'SQ_47')
+2025-11-09 17:43:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:13:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:14:08 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:14:08','CASH','Balance Cash for SQ:48 JC: 53',128,'SQ_48')
+2025-11-09 18:14:10 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:14:31 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:14:31','SB','Balance SB GPAY for SQ:49 JC: 54',341,'SQ_49')
+2025-11-09 18:14:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:14:49 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:14:49','SB','Balance SB GPAY for SQ:50 JC: 55',152,'SQ_50')
+2025-11-09 18:15:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:15:45 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:15:45','CASH','Balance Cash for SQ:51 JC: 56',100,'SQ_51')
+2025-11-09 18:15:45 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:15:45','SB','Balance SB GPAY for SQ:51 JC: 56',135,'SQ_51')
+2025-11-09 18:15:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:16:06 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:16:06','CASH','Balance Cash for SQ:52 JC: 57',25,'SQ_52')
+2025-11-09 18:16:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:16:21 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:16:21','CASH','Balance Cash for SQ:53 JC: 58',54,'SQ_53')
+2025-11-09 18:16:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:16:38 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-09 18:16:38','SB','Balance SB GPAY for SQ:54 JC: 59',20,'SQ_54')
+2025-11-09 18:16:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-09 18:18:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-09 00:00:00' and '2025-11-09 23:59:59' 
+2025-11-10 09:54:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-10 00:00:00' and '2025-11-10 23:59:59' 
+2025-11-10 09:56:10 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-02 00:00:00' and '2025-11-10 23:59:59' 
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (23,24);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (27,28);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (26);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (29);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (25);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (30);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (32,34);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (31,33,35);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (36);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (39);
+2025-11-10 09:56:10 select * from sales_quotation_master where quotation_no in (38);
+2025-11-11 09:47:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:18:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:18:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:18:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:22:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:22:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:23:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:26:58 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:29:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:30:43 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 11:31:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 11:32:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 11:47:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 11:49:19 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 11:49:19','SB','Balance SB GPAY for SQ:55 JC: 60',1100,'SQ_55')
+2025-11-11 11:49:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:10:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:11:00 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 12:11:00','CASH','Balance Cash for SQ:56 JC: 61',138,'SQ_56')
+2025-11-11 12:11:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:14:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:14:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 12:14:23','SB','Balance SB GPAY for SQ:57 JC: 62',198,'SQ_57')
+2025-11-11 12:14:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:18:01 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 12:18:01','CASH','Advance Cash for JC:63',400,'JC_63')
+2025-11-11 12:22:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:22:50 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 12:22:50','SB','Balance SB GPAY for SQ:58 JC: 63',418,'SQ_58')
+2025-11-11 12:22:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:27:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:27:25 update sales_quotation_master set prev_balance=2596 where quotation_no=59;
+2025-11-11 12:27:25 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 12:27:25','SALES','Quote :59',2710,'SQ_59'),('2025-11-11 12:27:25','AMSLER','Quote :59',-2710,'SQ_59')
+2025-11-11 12:27:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:33:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:35:08 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 12:35:08','SALES','Quote :60',4973,'SQ_60'),('2025-11-11 12:35:08','DISADECOR','Quote :60',-4973,'SQ_60')
+2025-11-11 12:35:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:39:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 12:39:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:39:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 12:39:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 12:39:44 select * from sales_quotation_master where quotation_no in (39);
+2025-11-11 12:39:44 select * from sales_quotation_master where quotation_no in (38);
+2025-11-11 13:18:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 13:18:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 13:18:15 select * from sales_quotation_master where quotation_no in (39);
+2025-11-11 13:18:15 select * from sales_quotation_master where quotation_no in (38);
+2025-11-11 13:23:37 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 13:23:37','SB','Advance SB GPAY for JC:66',500,'JC_66')
+2025-11-11 13:24:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 13:25:11 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 13:25:11','SB','Balance SB GPAY for SQ:61 JC: 66',550,'SQ_61')
+2025-11-11 13:25:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 13:28:44 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 13:28:44','CASH','Advance Cash for JC:67',10000,'JC_67')
+2025-11-11 13:28:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 13:30:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 13:30:57 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 13:30:57','CA','Balance CA GPAY for SQ:62 JC: 67',15000,'SQ_62')
+2025-11-11 13:30:58 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 13:49:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 13:56:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 14:00:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-11 14:00:55 select * from sales_quotation_master where quotation_no in (39);
+2025-11-11 14:00:55 select * from sales_quotation_master where quotation_no in (38);
+2025-11-11 14:39:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 14:46:10 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-06 00:00:00' and '2025-11-06 23:59:59' 
+2025-11-11 14:46:10 select * from sales_quotation_master where quotation_no in (39);
+2025-11-11 14:46:10 select * from sales_quotation_master where quotation_no in (38);
+2025-11-11 15:22:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 15:22:42 delete from jobcard_master where jobcard_no=68;
+2025-11-11 15:22:42 delete from jobcard_details where jobcard_no=68;
+2025-11-11 15:22:42 delete from job_card_wise_material_usage where jobcard_no=68;
+2025-11-11 15:22:42 delete from job_card_wise_machine_usage where jobcard_no=68;
+2025-11-11 15:22:42 delete from journal_details where link_key='JC_68';
+2025-11-11 15:22:42 Failed
+2025-11-11 15:26:04 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 15:26:04','CASH','Balance Cash for SQ:63 JC: 68',417,'SQ_63')
+2025-11-11 15:26:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 15:29:30 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 15:29:30','SB','Advance SB GPAY for JC:69',290,'JC_69')
+2025-11-11 15:33:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-11 15:35:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 15:36:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 15:36:23','CASH','Balance Cash for SQ:64 JC: 69',3000,'SQ_64')
+2025-11-11 15:36:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 15:36:23','SB','Balance SB GPAY for SQ:64 JC: 69',500,'SQ_64')
+2025-11-11 15:36:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 15:45:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 15:46:56 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 15:46:56','SB','Balance SB GPAY for SQ:65 JC: 70',300,'SQ_65')
+2025-11-11 15:46:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 15:58:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 15:59:14 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 15:59:14','CASH','Balance Cash for SQ:66 JC: 71',2855,'SQ_66')
+2025-11-11 15:59:14 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 15:59:14','CA','Balance CA GPAY for SQ:66 JC: 71',10000,'SQ_66')
+2025-11-11 15:59:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 16:03:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 16:08:45 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 16:08:45','SALES','Quote :67',4350,'SQ_67'),('2025-11-11 16:08:45','BLACKPRINT','Quote :67',-4350,'SQ_67')
+2025-11-11 16:08:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 16:21:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 16:42:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 16:43:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 16:43:23','SALES','Quote :68',2600,'SQ_68'),('2025-11-11 16:43:23','LGTBISCON','Quote :68',-2600,'SQ_68')
+2025-11-11 16:43:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 16:45:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 16:46:18 update sales_quotation_master set prev_balance=11567 where quotation_no=69;
+2025-11-11 16:46:18 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-11 16:46:18','SALES','Quote :69',25560,'SQ_69'),('2025-11-11 16:46:18','ACHENNAI','Quote :69',-25560,'SQ_69')
+2025-11-11 16:46:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 17:03:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-11' and created_by='opr1'
+2025-11-11 18:02:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-11 00:00:00' and '2025-11-11 23:59:59' 
+2025-11-12 10:58:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-12 00:00:00' and '2025-11-12 23:59:59' 
+2025-11-13 10:45:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 10:54:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 10:56:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 11:11:43 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 11:15:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 11:16:08 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 11:17:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 11:22:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 11:32:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 11:35:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-13' and created_by='opr1'
+2025-11-13 15:25:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 15:26:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 15:26:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 15:27:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 15:37:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 15:38:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 17:07:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 17:14:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-13 17:15:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-13 00:00:00' and '2025-11-13 23:59:59' 
+2025-11-14 18:27:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 18:31:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 18:41:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 19:00:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 19:02:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 19:03:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 19:05:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 19:07:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 19:30:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-14 19:31:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-14 00:00:00' and '2025-11-14 23:59:59' 
+2025-11-15 13:26:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:29:33 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 13:29:33','CA','Advance CA GPAY for JC:1',2000,'JC_1')
+2025-11-15 13:31:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:32:40 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 13:32:40','CA','Balance CA GPAY for SQ:1 JC: 1',3000,'SQ_1')
+2025-11-15 13:32:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:35:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:38:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:38:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 13:38:23','CASH','Balance Cash for SQ:2 JC: 2',326,'SQ_2')
+2025-11-15 13:38:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:41:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:42:00 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 13:42:00','CA','Balance CA GPAY for SQ:3 JC: 3',2000,'SQ_3')
+2025-11-15 13:42:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 13:46:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:03:41 delete from jobcard_master where jobcard_no=4;
+2025-11-15 14:03:41 delete from jobcard_details where jobcard_no=4;
+2025-11-15 14:03:41 delete from job_card_wise_material_usage where jobcard_no=4;
+2025-11-15 14:03:41 delete from job_card_wise_machine_usage where jobcard_no=4;
+2025-11-15 14:03:41 delete from journal_details where link_key='JC_4';
+2025-11-15 14:03:41 Failed
+2025-11-15 14:04:39 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:04:39','SB','Balance SB GPAY for SQ:4 JC: 4',1900,'SQ_4')
+2025-11-15 14:04:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:10:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:11:34 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:11:34','CASH','Balance Cash for SQ:5 JC: 5',598,'SQ_5')
+2025-11-15 14:11:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:15:12 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:15:12','CASH','Advance Cash for JC:6',1000,'JC_6')
+2025-11-15 14:15:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:16:13 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:16:13','CA','Balance CA GPAY for SQ:6 JC: 6',3044,'SQ_6')
+2025-11-15 14:16:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:20:38 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:22:01 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:22:01','SALES','Quote :7',4830,'SQ_7'),('2025-11-15 14:22:01','AMSLER','Quote :7',-4830,'SQ_7')
+2025-11-15 14:22:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:24:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:24:53 delete from jobcard_master where jobcard_no=8;
+2025-11-15 14:24:53 delete from jobcard_details where jobcard_no=8;
+2025-11-15 14:24:53 delete from job_card_wise_material_usage where jobcard_no=8;
+2025-11-15 14:24:53 delete from job_card_wise_machine_usage where jobcard_no=8;
+2025-11-15 14:24:53 delete from journal_details where link_key='JC_8';
+2025-11-15 14:24:53 Failed
+2025-11-15 14:26:29 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:30:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:33:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:34:01 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:34:01','SALES','Quote :9',5600,'SQ_9'),('2025-11-15 14:34:01','BLACKPRINT','Quote :9',-5600,'SQ_9')
+2025-11-15 14:34:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:35:24 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:35:24','CASH','Balance Cash for SQ:10 JC: 10',703,'SQ_10')
+2025-11-15 14:35:24 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:35:24','SB','Balance SB GPAY for SQ:10 JC: 10',700,'SQ_10')
+2025-11-15 14:35:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:38:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:38:23','CASH','Advance Cash for JC:11',500,'JC_11')
+2025-11-15 14:38:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:38:23','SB','Advance SB GPAY for JC:11',500,'JC_11')
+2025-11-15 14:38:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:39:32 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:39:32','SB','Balance SB GPAY for SQ:11 JC: 11',800,'SQ_11')
+2025-11-15 14:39:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:51:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:54:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:55:06 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:55:06','CASH','Balance Cash for SQ:12 JC: 12',600,'SQ_12')
+2025-11-15 14:55:06 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:55:06','SB','Balance SB GPAY for SQ:12 JC: 12',1000,'SQ_12')
+2025-11-15 14:55:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 14:56:41 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 14:56:41','CASH','Balance Cash for SQ:13 JC: 13',218,'SQ_13')
+2025-11-15 14:56:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 15:02:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 15:03:26 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 15:03:26','SALES','Quote :14',8000,'SQ_14'),('2025-11-15 15:03:26','BRANDWISE','Quote :14',-8000,'SQ_14')
+2025-11-15 15:03:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 15:06:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 15:08:01 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-15 15:08:01','SALES','Quote :15',1600,'SQ_15'),('2025-11-15 15:08:01','SOUTHERN','Quote :15',-1600,'SQ_15')
+2025-11-15 15:08:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 15:36:58 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-15 00:00:00' and '2025-11-15 23:59:59' 
+2025-11-15 15:38:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-15 00:00:00' and '2025-11-15 23:59:59' 
+2025-11-15 15:44:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr1'
+2025-11-15 15:54:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-15 00:00:00' and '2025-11-15 23:59:59' 
+2025-11-15 17:18:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-15 00:00:00' and '2025-11-15 23:59:59' 
+2025-11-15 17:19:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-15 00:00:00' and '2025-11-15 23:59:59' 
+2025-11-15 17:25:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-15' and created_by='opr2'
+2025-11-17 09:46:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:47:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:53:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:53:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 09:54:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 09:55:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:55:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:55:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:56:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:56:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:56:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:56:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:57:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 09:59:29 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:02:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:02:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:02:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:03:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:05:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:05:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:05:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:06:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 10:15:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 11:41:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:02:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:03:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:06:17 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:06:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:09:29 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:11:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:13:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:14:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:14:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:17:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:17:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:19:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:19:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:22:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:38:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 12:40:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:23:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 19:23:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 19:23:56 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-17 19:23:56','SB','Balance SB GPAY for SQ:1 JC: 12',140,'SQ_1')
+2025-11-17 19:23:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 19:24:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 19:24:34 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-17 19:24:34','SB','Balance SB GPAY for SQ:2 JC: 13',320,'SQ_2')
+2025-11-17 19:24:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 19:26:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:26:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:26:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:26:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:26:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:26:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:26:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:27:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:28:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:28:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:29:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-17' and created_by='opr1'
+2025-11-17 19:30:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:40:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:40:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-17 19:40:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-17 00:00:00' and '2025-11-17 23:59:59' 
+2025-11-18 10:12:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:12:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:13:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:13:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:14:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:17:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:18:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:18:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 10:19:38 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-18 00:00:00' and '2025-11-18 23:59:59' 
+2025-11-18 12:22:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr1'
+2025-11-18 13:19:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr1'
+2025-11-18 13:51:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr1'
+2025-11-18 13:52:04 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-18 13:52:04','CASH','Balance Cash for SQ:1 JC: 1',198,'SQ_1')
+2025-11-18 13:52:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr1'
+2025-11-18 15:38:54 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-18 15:38:54','SB','Balance SB GPAY for SQ:2 JC: 2',380,'SQ_2')
+2025-11-18 15:38:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr1'
+2025-11-18 16:01:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr1'
+2025-11-18 16:01:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr2'
+2025-11-18 16:02:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr2'
+2025-11-18 16:02:58 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-18 16:02:58','SB','Balance SB GPAY for SQ:3 JC: 3',650,'SQ_3')
+2025-11-18 16:02:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr2'
+2025-11-18 16:03:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr2'
+2025-11-18 16:04:03 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-18 16:04:03','SB','Balance SB GPAY for SQ:4 JC: 4',190,'SQ_4')
+2025-11-18 16:04:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr2'
+2025-11-18 16:04:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-11-18' and created_by='opr1'
+2025-11-21 15:24:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 15:24:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:03:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:18:13 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-03','WWPC','Purchase Voucher No:1',8297780.72375,'PU_1'),('2025-11-03','PURCHASE','Purchase Voucher No:1',-8297780.72375,'PU_1')
+2025-11-21 16:18:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:18:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:18:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:18:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:18:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:19:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 16:23:17 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 18:54:43 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 18:59:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-21 00:00:00' and '2025-11-21 23:59:59' 
+2025-11-21 19:01:59 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-21','WWPC','Payment Voucher :1',700000,'PAYVC_1'),('2025-11-21','CA','Payment Voucher :1',-700000,'PAYVC_1')
+2025-11-22 17:18:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-22 00:00:00' and '2025-11-22 23:59:59' 
+2025-11-22 17:19:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-22 00:00:00' and '2025-11-22 23:59:59' 
+2025-11-22 17:22:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-22 00:00:00' and '2025-11-22 23:59:59' 
+2025-11-24 18:25:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:39:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:41:29 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:49:08 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:50:38 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:51:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:52:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:53:56 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-24 18:53:56','CASH','Advance Cash for JC:9',1000,'JC_9')
+2025-11-24 18:54:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 18:55:31 delete from jobcard_master where jobcard_no=9;
+2025-11-24 18:55:31 delete from jobcard_details where jobcard_no=9;
+2025-11-24 18:55:31 delete from job_card_wise_material_usage where jobcard_no=9;
+2025-11-24 18:55:31 delete from job_card_wise_machine_usage where jobcard_no=9;
+2025-11-24 18:55:31 delete from journal_details where link_key='JC_9';
+2025-11-24 18:55:31 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-24 18:55:31','CASH','Advance Cash for JC:9',1000,'JC_9')
+2025-11-24 18:57:43 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-11-24 18:57:43','SB','Advance SB GPAY for JC:10',1500,'JC_10')
+2025-11-24 19:01:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:13:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:15:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:17:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:19:17 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:22:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:26:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:31:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:33:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:35:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:36:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:37:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:38:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:39:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:40:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:40:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:41:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:42:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:49:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-24 19:56:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-24 00:00:00' and '2025-11-24 23:59:59' 
+2025-11-27 17:54:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 17:55:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 17:56:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 17:57:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 17:57:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 17:58:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 17:59:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:00:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:00:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:00:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:03:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:10:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:11:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:12:58 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:13:38 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:18:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 18:28:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 19:00:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-27 19:00:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-27 00:00:00' and '2025-11-27 23:59:59' 
+2025-11-28 10:10:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-28 00:00:00' and '2025-11-28 23:59:59' 
+2025-11-28 17:28:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-28 00:00:00' and '2025-11-28 23:59:59' 
+2025-11-28 17:29:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-11-28 00:00:00' and '2025-11-28 23:59:59' 
+2025-12-01 10:51:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 11:01:10 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 11:01:10','CASH','Advance Cash for JC:17',100,'JC_17')
+2025-12-01 11:01:10 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 11:01:10','SB','Advance SB GPAY for JC:17',200,'JC_17')
+2025-12-01 11:03:16 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 11:28:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 11:33:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 11:34:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 11:34:25 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 13:01:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 13:06:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 13:07:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 13:09:50 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 13:09:50','CASH','Advance Cash for JC:22',500,'JC_22')
+2025-12-01 13:18:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 13:19:58 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 13:19:57','SB','Advance SB GPAY for JC:23',1000,'JC_23')
+2025-12-01 13:20:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 14:32:10 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 14:42:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 14:49:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 14:57:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 14:57:55 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 14:57:55','CASH','Advance Cash for JC:24',200,'JC_24')
+2025-12-01 14:58:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:02:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:04:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:08:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:10:20 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:10:20','SB','Advance SB GPAY for JC:26',500,'JC_26')
+2025-12-01 15:12:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:15:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:20:39 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:20:39','CA','Balance CA GPAY for SQ:5 JC: 16',2700,'SQ_5')
+2025-12-01 15:20:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:27:18 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:27:18','CASH','Balance Cash for SQ:6 JC: 17',518,'SQ_6')
+2025-12-01 15:27:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:27:49 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:27:49','SALES','Quote :7',1406,'SQ_7'),('2025-12-01 15:27:49','BLACKPRINT','Quote :7',-1406,'SQ_7')
+2025-12-01 15:27:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:29:48 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:29:48','SB','Balance SB GPAY for SQ:8 JC: 19',360,'SQ_8')
+2025-12-01 15:29:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:30:46 update sales_quotation_master set prev_balance=1406 where quotation_no=9;
+2025-12-01 15:30:46 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:30:46','SALES','Quote :9',700,'SQ_9'),('2025-12-01 15:30:46','BLACKPRINT','Quote :9',-700,'SQ_9')
+2025-12-01 15:30:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:34:18 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:34:18','CASH','Balance Cash for SQ:10 JC: 20',500,'SQ_10')
+2025-12-01 15:34:18 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:34:18','SB','Balance SB GPAY for SQ:10 JC: 20',200,'SQ_10')
+2025-12-01 15:34:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 15:59:41 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 15:59:41','CA','Advance CA GPAY for JC:28',6000,'JC_28')
+2025-12-01 16:06:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 16:07:24 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:07:24','SALES','Quote :11',5695,'SQ_11'),('2025-12-01 16:07:24','AJP','Quote :11',-5695,'SQ_11')
+2025-12-01 16:07:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 16:09:26 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:09:26','SB','Balance SB GPAY for SQ:12 JC: 22',1428,'SQ_12')
+2025-12-01 16:09:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 16:10:46 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:10:46','CASH','Balance Cash for SQ:13 JC: 23',2120,'SQ_13')
+2025-12-01 16:10:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 16:11:27 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:11:27','SB','Balance SB GPAY for SQ:14 JC: 24',500,'SQ_14')
+2025-12-01 16:11:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 16:12:32 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:12:32','CASH','Balance Cash for SQ:15 JC: 26',500,'SQ_15')
+2025-12-01 16:12:32 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:12:32','SB','Balance SB GPAY for SQ:15 JC: 26',320,'SQ_15')
+2025-12-01 16:12:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 16:15:56 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:15:56','CASH','Balance Cash for SQ:16 JC: 28',5000,'SQ_16')
+2025-12-01 16:15:56 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 16:15:56','CA','Balance CA GPAY for SQ:16 JC: 28',6745,'SQ_16')
+2025-12-01 16:15:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:04:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:16:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:16:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:17:21 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01','BLACKPRINT','Payment Voucher :1',700,'RCPTV_1'),('2025-12-01','CASH','Payment Voucher :1',-700,'RCPTV_1')
+2025-12-01 17:17:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:18:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:18:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:18:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:19:10 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:21:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:22:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:22:12 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:23:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:23:07 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:23:27 update sales_quotation_master set prev_balance=1785 where quotation_no=17;
+2025-12-01 17:23:27 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 17:23:27','SALES','Quote :17',1620,'SQ_17'),('2025-12-01 17:23:27','BLACKPRINT','Quote :17',-1620,'SQ_17')
+2025-12-01 17:23:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:23:28 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:26:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:26:05 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:26:32 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01','AJP','Payment Voucher :1',5000,'RCPTV_1'),('2025-12-01','CA','Payment Voucher :1',-5000,'RCPTV_1')
+2025-12-01 17:26:41 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01','AJP','Payment Voucher :2',695,'RCPTV_2'),('2025-12-01','CASH','Payment Voucher :2',-695,'RCPTV_2')
+2025-12-01 17:26:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:26:50 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:38:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:38:48 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:38:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:38:50 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:39:17 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 17:39:17 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 17:39:17 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 17:39:17 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 17:52:07 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01','AJP','Payment Voucher :3',1025,'RCPTV_3'),('2025-12-01','CASH','Payment Voucher :3',-1025,'RCPTV_3')
+2025-12-01 17:52:56 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01','BLACKPRINT','Payment Voucher :4',3697,'RCPTV_4'),('2025-12-01','CA','Payment Voucher :4',-3697,'RCPTV_4')
+2025-12-01 18:29:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 18:29:11 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 18:29:11 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 18:29:11 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 18:29:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 18:29:22 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 18:29:22 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 18:29:22 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 18:29:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 18:29:47 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 18:29:47 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 18:29:47 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 18:30:44 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 18:30:44','CASH','Balance Cash for SQ:18 JC: 29',640,'SQ_18')
+2025-12-01 18:30:44 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 18:30:44','CA','Balance CA GPAY for SQ:18 JC: 29',3000,'SQ_18')
+2025-12-01 18:30:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 18:30:45 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 18:30:45 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 18:30:45 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 18:47:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 18:47:23 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 18:47:23 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 18:47:23 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 18:57:20 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 18:57:20','SB','Advance SB GPAY for JC:30',80,'JC_30')
+2025-12-01 18:57:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 18:57:24 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 18:57:24 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 18:57:24 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 18:59:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 18:59:23','CASH','Balance Cash for SQ:19 JC: 30',100,'SQ_19')
+2025-12-01 18:59:23 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 18:59:23','SB','Balance SB GPAY for SQ:19 JC: 30',200,'SQ_19')
+2025-12-01 18:59:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 18:59:24 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 18:59:24 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 18:59:24 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 19:17:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 19:17:54 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 19:17:54 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 19:17:54 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 19:18:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 19:18:03 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 19:18:03 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 19:18:03 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 19:18:34 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-01 19:18:34','CASH','Advance Cash for JC:31',200,'JC_31')
+2025-12-01 19:18:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 19:18:37 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 19:18:37 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 19:18:37 select * from sales_quotation_master where quotation_no in (17);
+2025-12-01 19:30:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-01 23:59:59' 
+2025-12-01 19:30:11 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-01 19:30:11 select * from sales_quotation_master where quotation_no in (11);
+2025-12-01 19:30:11 select * from sales_quotation_master where quotation_no in (17);
+2025-12-02 16:48:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 16:49:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 16:49:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 16:50:19 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-02 16:50:19','CASH','Balance Cash for SQ:20 JC: 31',650,'SQ_20')
+2025-12-02 16:50:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 16:55:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:05:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:06:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:18:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:18:26 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-02 17:18:26','SB','Advance SB GPAY for JC:32',100,'JC_32')
+2025-12-02 17:18:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:19:02 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-02 17:19:02','CASH','Balance Cash for SQ:21 JC: 32',300,'SQ_21')
+2025-12-02 17:19:02 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-02 17:19:02','SB','Balance SB GPAY for SQ:21 JC: 32',20,'SQ_21')
+2025-12-02 17:19:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:28:29 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:29:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:29:11 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-02 17:29:11 select * from sales_quotation_master where quotation_no in (11);
+2025-12-02 17:29:11 select * from sales_quotation_master where quotation_no in (17);
+2025-12-02 17:30:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 17:31:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-02 19:12:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-02 00:00:00' and '2025-12-02 23:59:59' 
+2025-12-03 09:50:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-03' and created_by='opr1'
+2025-12-03 11:18:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-03 00:00:00' and '2025-12-03 23:59:59' 
+2025-12-03 11:18:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-03 00:00:00' and '2025-12-03 23:59:59' 
+2025-12-03 15:14:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-03 00:00:00' and '2025-12-03 23:59:59' 
+2025-12-04 17:24:16 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:24:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:31:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:40:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:41:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:44:10 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:44:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:45:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:45:46 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-04 17:45:46','SALES','Quote :22',3120,'SQ_22'),('2025-12-04 17:45:46','AVIRA','Quote :22',-3120,'SQ_22')
+2025-12-04 17:45:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:46:26 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-04','AVIRA','Payment Voucher :5',2000,'RCPTV_5'),('2025-12-04','CA','Payment Voucher :5',-2000,'RCPTV_5')
+2025-12-04 17:46:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:52:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:53:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:58:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:59:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 17:59:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 18:00:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 18:06:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 18:19:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 18:34:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 18:40:43 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 19:14:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-04' and created_by='opr1'
+2025-12-04 19:29:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 19:31:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-04 20:04:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-04 00:00:00' and '2025-12-04 23:59:59' 
+2025-12-05 09:37:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-05' and created_by='opr1'
+2025-12-05 10:53:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:54:10 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:54:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:54:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:54:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:54:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:54:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:54:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-05 10:57:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-05 00:00:00' and '2025-12-05 23:59:59' 
+2025-12-06 18:06:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:08:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:10:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:10:33 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-06 18:10:33','SALES','Quote :23',2000,'SQ_23'),('2025-12-06 18:10:33','BLACKPRINT','Quote :23',-2000,'SQ_23')
+2025-12-06 18:10:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:13:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:13:31 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:13:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:13:41 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:14:02 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-06','BLACKPRINT','Payment Voucher :5',1360,'RCPTV_5'),('2025-12-06','CA','Payment Voucher :5',-1360,'RCPTV_5')
+2025-12-06 18:14:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:14:31 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:14:38 delete from journal_details where link_key='RCPTV_5';
+2025-12-06 18:14:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:14:40 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:14:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:14:56 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:16:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:16:59 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:18:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:18:34 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:20:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:20:14 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:22:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:22:03 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:23:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:23:09 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:25:16 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-06 18:25:16','CASH','Advance Cash for JC:41',500,'JC_41')
+2025-12-06 18:25:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:25:55 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:27:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:27:05 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:29:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:29:27 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:29:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:29:45 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:30:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:30:18 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:30:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:30:27 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:30:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:30:39 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:34:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:34:26 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:34:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:34:56 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:40:25 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:40:25 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:40:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:40:59 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:41:25 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:41:25 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:41:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:41:36 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:50:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:50:06 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:54:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:54:09 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:54:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:54:50 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:54:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:54:55 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 18:57:25 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 18:57:25 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:07:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:07:26 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:20:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:20:11 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:22:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:22:56 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:27:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:27:49 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:29:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:29:20 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:30:58 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:30:58 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:51:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:51:18 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:54:38 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:54:38 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:57:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:57:39 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:57:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:57:59 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 19:59:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 19:59:20 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 20:00:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 20:00:09 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 20:03:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 20:03:03 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 20:03:43 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-06 20:03:43','CASH','Balance Cash for SQ:24 JC: 49',3098,'SQ_24')
+2025-12-06 20:03:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 20:03:45 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 20:15:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 20:15:05 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 20:15:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 20:15:32 select * from sales_quotation_master where quotation_no in (23);
+2025-12-06 20:50:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-06 00:00:00' and '2025-12-06 23:59:59' 
+2025-12-06 20:50:53 select * from sales_quotation_master where quotation_no in (23);
+2025-12-07 01:18:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-07 00:00:00' and '2025-12-07 23:59:59' 
+2025-12-07 01:22:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-07 00:00:00' and '2025-12-07 23:59:59' 
+2025-12-07 01:23:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-07 00:00:00' and '2025-12-07 23:59:59' 
+2025-12-08 10:11:44 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:29:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:30:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 10:35:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 10:36:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 10:36:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:37:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:37:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:37:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:40:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:50:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:51:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:51:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 10:53:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 10:54:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 10:55:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 11:01:17 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 11:02:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:05:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:06:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 11:07:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:08:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 11:09:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:13:03 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 11:13:03','SB','Balance SB GPAY for SQ:25 JC: 51',120,'SQ_25')
+2025-12-08 11:13:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:13:19 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 11:13:19','SB','Balance SB GPAY for SQ:26 JC: 52',815,'SQ_26')
+2025-12-08 11:13:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:13:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 11:22:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:23:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 11:24:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:28:20 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:28:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:30:08 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:30:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:31:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 11:32:15 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 11:32:15','SB','Balance SB GPAY for SQ:27 JC: 57',120,'SQ_27')
+2025-12-08 11:32:16 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 11:32:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:35:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:35:58 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:38:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:38:38 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 11:38:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:38:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:38:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:39:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:41:16 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 11:42:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:43:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:44:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:44:59 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 11:44:59','SB','Balance SB GPAY for SQ:28 JC: 59',815,'SQ_28')
+2025-12-08 11:45:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 11:45:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 11:45:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:46:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:46:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:46:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='opr1'
+2025-12-08 11:49:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 11:52:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 11:52:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 12:04:48 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 12:04:48','SALES','Quote :29',330,'SQ_29'),('2025-12-08 12:04:48','SSM','Quote :29',-330,'SQ_29')
+2025-12-08 12:04:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 12:06:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 12:10:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 12:13:23 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 12:13:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 12:13:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 12:13:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 12:14:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 12:23:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 12:23:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 12:37:01 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 12:37:01','CASH','Balance Cash for SQ:30 JC: 56',398,'SQ_30')
+2025-12-08 12:37:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 12:37:19 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 12:37:45 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 12:37:45','SB','Balance SB GPAY for SQ:31 JC: 68',40,'SQ_31')
+2025-12-08 12:37:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 12:40:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 12:50:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 12:53:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 12:54:42 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 12:54:42','SB','Balance SB GPAY for SQ:32 JC: 69',425,'SQ_32')
+2025-12-08 12:54:43 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 13:04:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 13:16:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 13:17:00 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 13:17:00','SB','Balance SB GPAY for SQ:33 JC: 70',140,'SQ_33')
+2025-12-08 13:17:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 13:23:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 13:33:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 13:35:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 13:36:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 13:36:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 13:37:24 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 13:37:24','SB','Balance SB GPAY for SQ:34 JC: 73',25,'SQ_34')
+2025-12-08 13:37:25 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 13:44:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 13:49:50 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 13:49:50','SB','Balance SB GPAY for SQ:35 JC: 74',1154,'SQ_35')
+2025-12-08 13:49:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 13:58:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 13:58:30 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 13:58:30','SB','Balance SB GPAY for SQ:36 JC: 75',24,'SQ_36')
+2025-12-08 13:58:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 13:59:41 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 13:59:41','SB','Balance SB GPAY for SQ:37 JC: 60',756,'SQ_37')
+2025-12-08 13:59:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:03:43 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:04:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:17:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:18:01 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 14:18:01','CASH','Balance Cash for SQ:38 JC: 67',840,'SQ_38')
+2025-12-08 14:18:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:18:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:18:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:18:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:19:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:19:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:20:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:22:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:25:57 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 14:26:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:27:13 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 14:27:13','SB','Advance SB GPAY for JC:80',300,'JC_80')
+2025-12-08 14:27:17 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:31:16 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 14:32:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:33:03 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 14:33:03','SB','Balance SB GPAY for SQ:39 JC: 81',205,'SQ_39')
+2025-12-08 14:33:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:40:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 14:44:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 14:47:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:53:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:53:50 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 14:53:50','SB','Balance SB GPAY for SQ:40 JC: 83',92,'SQ_40')
+2025-12-08 14:53:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:54:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 14:56:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 14:56:37 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 14:56:37','SB','Balance SB GPAY for SQ:41 JC: 84',30,'SQ_41')
+2025-12-08 14:56:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:01:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:01:20 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 15:01:20','CASH','Balance Cash for SQ:42 JC: 85',20,'SQ_42')
+2025-12-08 15:01:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:05:24 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 15:06:37 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:08:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 15:09:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 15:10:25 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 15:12:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 15:12:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 15:13:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 15:13:18 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 15:13:18','SB','Balance SB GPAY for SQ:43 JC: 87',52,'SQ_43')
+2025-12-08 15:13:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 15:14:16 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 15:14:36 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 15:14:36','SB','Balance SB GPAY for SQ:44 JC: 89',25,'SQ_44')
+2025-12-08 15:14:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 15:24:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 15:26:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 15:29:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:44:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:47:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:47:46 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:47:59 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 15:47:59','SB','Balance SB GPAY for SQ:45 JC: 93',74,'SQ_45')
+2025-12-08 15:48:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:50:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:51:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:52:28 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 15:52:28','SB','Balance SB GPAY for SQ:46 JC: 94',29.5,'SQ_46')
+2025-12-08 15:52:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:53:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 15:57:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:00:45 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:01:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:02:48 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:03:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:07:18 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:07:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 16:07:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:07:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:09:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:11:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:12:35 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:13:10 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 16:13:10','SB','Balance SB GPAY for SQ:47 JC: 103',22,'SQ_47')
+2025-12-08 16:13:11 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:14:14 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 16:19:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 16:21:07 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 16:21:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:21:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 16:21:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-01 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 16:21:55 select * from sales_quotation_master where quotation_no in (7,9);
+2025-12-08 16:21:55 select * from sales_quotation_master where quotation_no in (11);
+2025-12-08 16:21:55 select * from sales_quotation_master where quotation_no in (17);
+2025-12-08 16:21:55 select * from sales_quotation_master where quotation_no in (23);
+2025-12-08 16:22:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 16:35:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:36:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:36:03 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 16:36:03','SB','Balance SB GPAY for SQ:48 JC: 106',510,'SQ_48')
+2025-12-08 16:36:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:40:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:40:49 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 16:40:49','SB','Balance SB GPAY for SQ:49 JC: 76',543,'SQ_49')
+2025-12-08 16:40:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:43:47 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:44:26 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:45:28 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:46:05 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:46:29 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:46:31 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 16:46:31','SALES','Quote :50',100,'SQ_50'),('2025-12-08 16:46:31','BIOMICRON','Quote :50',-100,'SQ_50')
+2025-12-08 16:46:32 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:47:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:48:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 16:48:16 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 16:48:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:48:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:48:56 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 16:49:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 16:49:06 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 16:49:08 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 16:49:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:49:50 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 16:49:50','CASH','Balance Cash for SQ:51 JC: 113',50,'SQ_51')
+2025-12-08 16:49:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:53:32 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 16:53:32','SB','Balance SB GPAY for SQ:52 JC: 92',122,'SQ_52')
+2025-12-08 16:53:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 16:53:34 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 16:56:36 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:57:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 16:58:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 16:58:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 17:00:27 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:01:15 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:01:27 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 17:01:27','SB','Balance SB GPAY for SQ:53 JC: 118',50,'SQ_53')
+2025-12-08 17:01:29 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:10:39 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:10:52 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 17:10:52','SB','Balance SB GPAY for SQ:54 JC: 119',520,'SQ_54')
+2025-12-08 17:10:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:17:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 17:18:58 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 17:23:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 17:25:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 17:25:40 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:26:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 17:26:41 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 17:27:06 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 17:27:06','CASH','Balance Cash for SQ:55 JC: 121',150,'SQ_55')
+2025-12-08 17:27:08 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:30:30 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 17:31:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SANJAY'
+2025-12-08 17:32:50 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 17:32:50','CA','Balance CA GPAY for SQ:56 JC: 79',2170,'SQ_56')
+2025-12-08 17:32:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:43:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:49:54 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:50:33 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:50:52 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 17:52:12 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JOHNSON'
+2025-12-08 18:01:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:02:59 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 18:03:02 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 18:03:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 18:11:49 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 18:12:01 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 18:19:50 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:19:53 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:19:55 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:20:20 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 18:20:20','SB','Balance SB GPAY for SQ:57 JC: 126',111,'SQ_57')
+2025-12-08 18:20:21 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:22:13 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 18:23:03 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='SURYA'
+2025-12-08 18:31:00 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:33:51 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 18:34:09 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm between '2025-12-08 00:00:00' and '2025-12-08 23:59:59' 
+2025-12-08 18:35:04 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:35:42 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:36:04 INSERT INTO `journal_details`( `dt`, `achead`, `description`, `amount`, `link_key`) VALUES ('2025-12-08 18:36:04','CASH','Balance Cash for SQ:58 JC: 129',100,'SQ_58')
+2025-12-08 18:36:08 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:37:22 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'
+2025-12-08 18:38:31 SELECT * FROM sales_invoice_master where 1 and invoice_dt_tm >='2025-12-08' and created_by='JANANI'

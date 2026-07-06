@@ -1,0 +1,3 @@
+select dt from machine_eod_counter_details where dt='2025-12-09' limit 1
+select dt from machine_eod_counter_details where dt<'2025-12-09' order by dt desc limit 1
+SELECT a.machine_code,a.machine_name,b.dt,b.machine_counter_reading FROM `machine_master` a left join (select * from machine_eod_counter_details where dt='2025-11-27') b on a.machine_code=b.machine_code;

@@ -1,0 +1,291 @@
+* {
+      box-sizing: border-box;
+      font-family: 'Inter', Arial, sans-serif;
+	  /*font-size:1.5vmin;*/
+    }
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+    overflow: auto;
+}
+
+#window_div{
+	height: 100%;
+    overflow: auto;
+}
+
+.logo_width{
+	width:70%;
+} 
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 48px;
+  }
+  .navbar-search {
+	display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color:#fff;
+  cursor:pointer;
+}
+.bg-blue
+{
+	background-color:#2470dc;
+}
+.bg-orange
+{ 
+	background-color: #f79646;
+    border: 1px solid #f79646;
+}
+.bg-purple
+{
+	background-color:#af24dc;
+}
+.bg-darkpurple
+{
+	background-color:#ccc1da;
+}
+.bg-lightpurple
+{
+	background-color:#e8d9fb;
+}
+.bg-darkblue 
+{
+	background-color:#045081;
+	background-color:#005c97;
+}
+.sidebar .nav-link.active {
+  color: #fff;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+} 
+.nav-item
+{
+	padding:0px;
+	
+}
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+.nav-link:hover{
+	background-color:#afafaf; 
+}
+.margin-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar
+{
+	justify-content: normal;
+}
+.sidemenuImgCls
+{
+	width:32px;
+}
+.iconDivCls
+{
+	cursor:pointer;
+	border: none;
+	background: #f8fafc;
+	margin:0;
+	padding:18px 12px 14px;
+	font-size:0.84rem;
+	font-weight:600;
+	text-align:center;
+	border-radius:14px;
+	transition: all 0.25s ease;
+	color: #1e293b;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.iconDivCls p
+{
+	display: none;
+}
+.iconImgCls
+{
+	display:none;
+}
+.rightContentDiv
+{
+	background-color:#e4eef7;
+	padding-left:1.2rem !important;
+}
+.text-bg-purple {
+	color:#fff;
+	background-color:#5d208b;
+}
+.card-title
+{
+	font-size:0.9rem;
+	color:#fff;
+	margin:0px;
+}
+.text-bg-orange
+{
+	color:#fff;
+	background-color:#ff9222;
+}
+.card-body
+{
+	min-height: auto;
+}
+.iconDivCls:hover
+{
+	transform: translateY(-3px);
+	box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+	border-color: #d5dae2;
+}
+.bg_aliceblue
+{
+	background-color:aliceblue;
+	background-color:#fff;
+}
+
+	.bg_blue
+	{
+		background-color:#004b77;
+		color:#fff;
+	}
+	.bg_magenta
+	{
+		background-color:magenta;
+		color:#000;
+	}
+	.bg_cyan
+	{
+		background-color:cyan;
+		color:#000;
+	}
+/* 	.form-control
+	{
+		padding: 0.2rem;
+		border-radius: 2px;
+		font-size: 0.8rem;
+		line-height: 0.2;
+	}
+	.form-select
+	{
+		padding: 0.1rem;
+		border-radius: 0px;
+		font-size: 0.8rem;
+	}
+	.col-form-label
+	{
+		line-height: 1;
+		font-size: 0.9rem;
+	}
+ */	.border-yellow
+	{
+		border: 1px solid #ffd505;
+		border-radius:5px;
+	}
+	
+	.btn-lightblue
+	{
+		background-color:#0dcaf0;
+	}
+	.btn-lightblue:hover
+	{
+		background-color:#04a8c9;
+	}
+	.btn-green
+	{
+		background-color:lightgreen;
+	}
+	.btn-green:hover
+	{
+		background-color:#66d366;
+	}
+	.btn-lightorange
+	{
+		background-color:#ffc107;
+	}
+	.btn-lightorange:hover
+	{
+		background-color:#dda706;		
+	}
+	.btn-purple
+	{
+		background-color:#c73dc7;
+	}
+	.btn-purple:hover
+	{
+		background-color:purple;		
+	}
+	.btn-darkpurple
+	{
+		background-color:purple;
+		color:#fff;
+		
+	}
+	.btn-darkpurple:hover
+	{
+		background-color:#c73dc7;		
+	} 
+.form-select:disabled ,.form-control:disabled{
+    background-color: #cacacb;
+}
+
+.cardCls th
+{
+	font-size: 0.95rem;
+}
+
+.bg_glightgreen
+{
+	background:#ebf1de;
+}
+
+.bg_gdarkgreen
+{
+	background:#c3d69b;
+}
+.bg_babypink
+{
+	background:#fdeada;
+}
+.bg_excelblue
+{
+	background:#c6d9f1;
+}
+table.dataTable>thead>tr>th, table.dataTable>thead>tr>td
+{
+	padding: 8px 10px;
+	font-size: 0.88rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button
+{
+	padding: 4px 10px;
+	font-size: 0.88rem;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 0.92rem;
+    background-color: transparent;
+    color: inherit;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}

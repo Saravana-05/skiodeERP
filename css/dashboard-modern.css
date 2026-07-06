@@ -1,0 +1,844 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Dashboard Modern UI — Gen-Z Refresh
+   Scoped to dashboard, sidebar, and header only. Does NOT affect other screens.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Global Font Override ───────────────────────────────────────────────── */
+* {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* ── Split Layout: Sidebar + (Header + Content) ────────────────────────── */
+.cp-layout-wrapper {
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ── Sidebar (fixed left) ───────────────────────────────────────────────── */
+.cp-sidebar {
+    width: 280px !important;
+    min-width: 260px !important;
+    max-width: 260px !important;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 1.1rem 1.25rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cp-sidebar-brand img {
+    width: 38px;
+    border-radius: 8px;
+}
+
+.cp-sidebar-brand span {
+    color: #e2e8f0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* ── Main Column (header + content stacked) ─────────────────────────────── */
+.cp-main-column {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* ── Top Header Bar (inside main column only) ───────────────────────────── */
+.cp-topbar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    min-height: 60px;
+    padding: 0 1.75rem;
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    z-index: 10;
+}
+
+.cp-topbar-toggle {
+    background: none;
+    border: none;
+    color: #334155;
+    cursor: pointer;
+    margin-right: 12px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.cp-topbar-toggle:hover {
+    background: #f1f5f9;
+}
+
+.cp-topbar-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0;
+    letter-spacing: 0.2px;
+}
+
+.cp-topbar-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.cp-user-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f1f5f9;
+    border-radius: 24px;
+    padding: 7px 16px 7px 10px;
+}
+
+.cp-user-badge .material-icons-round {
+    font-size: 30px;
+    color: #6366f1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.cp-user-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.cp-user-role {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+    background: #6366f1;
+    padding: 3px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ── Content Area ───────────────────────────────────────────────────────── */
+.cp-content {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1.25rem 1.75rem !important;
+    background: rgba(177, 211, 185, 0.5) !important;
+}
+
+/* Hide old header if still present */
+header.navbar {
+    display: none !important;
+}
+
+/* Fix old container-fluid layout */
+.cp-layout-wrapper>.container-fluid {
+    padding: 0;
+}
+
+/* ── Responsive: mobile collapses sidebar ───────────────────────────────── */
+@media (max-width: 767.98px) {
+    .cp-sidebar {
+        position: fixed;
+        left: -260px;
+        top: 0;
+        z-index: 200;
+        transition: left 0.3s ease;
+        box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .cp-sidebar.show {
+        left: 0;
+    }
+
+    .cp-main-column {
+        width: 100%;
+    }
+}
+
+/* ── Sidebar Colors ─────────────────────────────────────────────────────── */
+.cp-sidebar,
+.cp-sidebar .offcanvas-md,
+.offcanvas-md.bg-darkblue {
+    background: linear-gradient(180deg, #0f172a 0%, #1a2744 100%) !important;
+}
+
+.sidebar-nav {
+    padding: 0.25rem 0 !important;
+}
+
+a.sidebar-link {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    color: #cbd5e1 !important;
+    padding: 0.7rem 1.25rem !important;
+    border-radius: 8px;
+    margin: 2px 8px;
+    transition: all 0.2s ease;
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a.sidebar-link:hover {
+    background: rgba(99, 102, 241, 0.15) !important;
+    color: #fff !important;
+}
+
+.sidebar-item:hover {
+    background: transparent !important;
+}
+
+.sidebar-item>ul>li:hover {
+    background: transparent !important;
+}
+
+a.sidebar-link.active {
+    background: rgba(99, 102, 241, 0.25) !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.sidebar-link[data-bs-toggle="collapse"]::after {
+    border-color: #e2e8f0;
+    border-width: 0 2px 2px 0;
+    right: 1.25rem;
+    top: 0.9rem;
+    padding: 2px;
+}
+
+/* Hide old PNG icons if any remain */
+.sidemenuImgCls {
+    display: none !important;
+}
+
+/* Material Icons in sidebar */
+.sidebar-icon {
+    font-size: 18px !important;
+    opacity: 0.85;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 26px;
+}
+
+/* Sub-menu items */
+.sidebar-dropdown a.sidebar-link {
+    font-size: 0.95rem !important;
+    padding: 0.5rem 1.25rem 0.5rem 2.75rem !important;
+    color: #94a3b8 !important;
+    font-weight: 600 !important;
+}
+
+.sidebar-dropdown a.sidebar-link:hover {
+    color: #fff !important;
+    background: rgba(99, 102, 241, 0.1) !important;
+}
+
+/* ── Dashboard Container ────────────────────────────────────────────────── */
+.dashboardContent {
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0.5rem 0 !important;
+    margin-top: 0 !important;
+    min-height: auto !important;
+}
+
+.dashboardContent>.d-flex>h4,
+.dashboardContent h4 {
+    display: none !important;
+}
+
+/* ── Dashboard top row ──────────────────────────────────────────────────── */
+.dash-top-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 0.5rem 0 0;
+}
+
+.dash-left-col {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0;
+    justify-content: flex-start;
+}
+
+/* ── Action Icon Cards ──────────────────────────────────────────────────── */
+.allIconDivCls {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 14px !important;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.allIconDivCls .iconDivCls {
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 14px !important;
+    padding: 16px 10px 12px !important;
+    margin: 0 !important;
+    background: #fff !important;
+    color: #1e293b !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.25s ease;
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    max-width: none;
+    width: auto;
+    text-align: center;
+}
+
+.allIconDivCls .iconDivCls:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+    border-color: #d5dae2 !important;
+}
+
+.iconDivCls p {
+    display: none !important;
+}
+
+/* Hide old PNG action card icons */
+.iconImgCls {
+    display: none !important;
+}
+
+/* Material Icons in action cards — inside .icon-circle now */
+.action-card-icon {
+    font-size: 1.6rem !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: hidden;
+    display: inline-block !important;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.iconDivCls:hover .action-card-icon {
+    transform: scale(1.08);
+}
+
+/* ── Low Stock Alert Box ────────────────────────────────────────────────── */
+.low-stock-box {
+    flex: 0 0 240px !important;
+    min-width: auto !important;
+    max-width: none;
+    max-height: 280px;
+    align-self: flex-start;
+    background: #fff !important;
+    color: #1e293b !important;
+    border: 1px solid #eef0f4 !important;
+    border-radius: 14px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    font-size: 0.75rem;
+    padding: 0 !important;
+    margin-left: auto !important;
+    overflow-y: auto;
+}
+
+/* ── SUPERADMIN Stat Cards ──────────────────────────────────────────────── */
+.cardCls .col-md-3 {
+    padding: 0.5rem;
+}
+
+.cardCls .card {
+    border: none !important;
+    border-radius: 14px !important;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cardCls .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cardCls .card-header {
+    border-bottom: none;
+    padding: 0.9rem 1.1rem;
+}
+
+.cardCls .card-header h6.card-title {
+    font-size: 0.9rem !important;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.cardCls .card-body {
+    min-height: auto !important;
+    padding: 0.85rem 1.1rem;
+}
+
+.cardCls .card-body table {
+    width: 100%;
+}
+
+.cardCls .card-body th {
+    font-size: 0.88rem !important;
+    font-weight: 500;
+    padding: 5px 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.cardCls .card-body td {
+    font-size: 0.92rem !important;
+    font-weight: 700;
+    padding: 5px 6px;
+}
+
+/* Card gradient overrides */
+.cardCls .card.text-bg-primary {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+}
+
+.cardCls .card.text-bg-purple,
+.cardCls .card.text-bg-purple .card-header {
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%) !important;
+}
+
+.cardCls .card.text-bg-danger {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%) !important;
+}
+
+.cardCls .card.text-bg-warning {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
+}
+
+.cardCls .card.text-bg-orange {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+}
+
+.cardCls .card.text-bg-success {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+}
+
+/* ── SUPERADMIN Date Filter Bar ─────────────────────────────────────────── */
+.dashboardContent>.row.mt-2 {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.85rem;
+    align-items: center;
+}
+
+.dashboardContent>.row.mt-2 .form-control {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    font-size: 0.92rem;
+    padding: 0.45rem 0.85rem;
+}
+
+.dashboardContent>.row.mt-2 .col-form-label {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #475569;
+}
+
+.dashboardContent>.row.mt-2 .btn-info {
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    padding: 0.45rem 1.5rem;
+    background: #6366f1;
+    border-color: #6366f1;
+    color: #fff;
+}
+
+.dashboardContent>.row.mt-2 .btn-info:hover {
+    background: #4f46e5;
+    border-color: #4f46e5;
+}
+
+/* ── Tab Navigation (Non-SUPERADMIN) ────────────────────────────────────── */
+.dashboardContent .nav-tabs {
+    border-bottom: 1px solid #e2e8f0;
+    gap: 0;
+    font-size: 0.85rem !important;
+    margin-top: 18px;
+}
+
+.dashboardContent .nav-tabs .nav-link {
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
+    border-radius: 0 !important;
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem !important;
+    font-weight: 500;
+    color: #64748b;
+    background: transparent;
+    transition: all 0.2s ease;
+    margin-bottom: -1px;
+}
+
+.dashboardContent .nav-tabs .nav-link:hover {
+    color: #1e293b;
+    background: transparent;
+    border-bottom-color: #cbd5e1 !important;
+}
+
+.dashboardContent .nav-tabs .nav-item.show .nav-link,
+.dashboardContent .nav-tabs .nav-link.active {
+    background: transparent !important;
+    color: #4f46e5 !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    border-bottom: 2px solid #4f46e5 !important;
+}
+
+/* ── Filter Bars (teal/pink/cyan tables) ────────────────────────────────── */
+.tab-content table[style*="background-color:teal"],
+.tab-content table[style*="background-color:#ffabff"],
+.tab-content table[style*="background-color:cyan"] {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tab-content h5.bg_blue {
+    display: none;
+}
+
+/* ── Table header — clean light style ──────────────────────────────────── */
+.dashboardContent table thead.table-dark th,
+#jobcardTable thead.table-dark th,
+#sqTable thead.table-dark th,
+#siTable thead.table-dark th {
+    background: #f8fafc !important;
+    color: #475569 !important;
+}
+
+.dashboardContent table.dataTable,
+#jobcardDiv table,
+#sqDiv table,
+#siDiv table {
+    border-collapse: collapse !important;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+.dashboardContent table.dataTable thead th,
+.dashboardContent table thead th {
+    background: #f8fafc !important;
+    color: #475569 !important;
+    font-size: 0.75rem !important;
+    font-weight: 700 !important;
+    padding: 10px 12px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border: none !important;
+    border-bottom: 2px solid #e2e8f0 !important;
+}
+
+.dashboardContent table.dataTable thead th:first-child {
+    border-radius: 0;
+}
+
+.dashboardContent table.dataTable thead th:last-child {
+    border-radius: 0;
+}
+
+.dashboardContent table.dataTable tbody td {
+    font-size: 0.84rem !important;
+    padding: 10px 12px !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    border-left: none !important;
+    border-right: none !important;
+    color: #334155;
+    vertical-align: middle;
+}
+
+.dashboardContent table.dataTable tbody tr:hover {
+    background: #f8fafc !important;
+}
+
+.dashboardContent table.dataTable tbody tr:nth-child(even) {
+    background: #fafbfd;
+}
+
+.dashboardContent table.dataTable tbody td strong {
+    font-weight: 700;
+    color: #0f172a;
+}
+
+/* ── DataTables Controls ────────────────────────────────────────────────── */
+.dashboardContent .dataTables_wrapper .dataTables_filter input {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    padding: 6px 12px;
+    font-size: 0.82rem;
+    transition: border-color 0.2s;
+}
+
+.dashboardContent .dataTables_wrapper .dataTables_filter input:focus {
+    border-color: #6366f1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.08);
+}
+
+.dashboardContent .dataTables_wrapper .dataTables_info {
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+.dashboardContent .dataTables_wrapper .dataTables_paginate .paginate_button {
+    border-radius: 6px !important;
+    font-size: 0.8rem;
+    padding: 4px 10px !important;
+    margin: 0 2px;
+}
+
+.dashboardContent .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #4f46e5 !important;
+    color: #fff !important;
+    border: 1px solid #4f46e5 !important;
+}
+
+.dashboardContent .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #eef2ff !important;
+    color: #4f46e5 !important;
+    border-color: #c7d2fe !important;
+}
+
+/* Clean table borders inside table-section wrapper */
+.cp-table-section #jobcardTable,
+#jobcardTable.table-bordered {
+    border: none !important;
+    margin-bottom: 0;
+}
+
+#jobcardTable.table-bordered th,
+#jobcardTable.table-bordered td {
+    border-color: #f1f5f9 !important;
+}
+
+#jobcardTable thead th {
+    background: #f8fafc !important;
+    color: #475569 !important;
+    font-size: 0.75rem !important;
+    font-weight: 700 !important;
+    padding: 10px 12px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border: none !important;
+    border-bottom: 2px solid #e2e8f0 !important;
+}
+
+#jobcardTable thead th:first-child {
+    border-radius: 0;
+}
+
+#jobcardTable thead th:last-child {
+    border-radius: 0;
+}
+
+#jobcardTable tbody tr {
+    transition: background 0.15s;
+}
+
+#jobcardTable tbody tr:hover {
+    background: #f8fafc !important;
+}
+
+#jobcardTable tbody tr:nth-child(even) {
+    background: #fafbfd;
+}
+
+#jobcardTable tbody td {
+    padding: 10px 12px !important;
+    vertical-align: middle;
+    font-size: 0.84rem;
+    color: #334155;
+    border-bottom: 1px solid #f1f5f9 !important;
+}
+
+/* Action buttons inside table */
+#jobcardTable .btn-sm {
+    border-radius: 6px;
+    font-size: 0.72rem;
+    padding: 4px 10px;
+    font-weight: 600;
+    border: none;
+}
+
+#jobcardTable .btn-primary {
+    background: #4f46e5 !important;
+    color: #fff !important;
+}
+
+#jobcardTable .btn-primary:hover {
+    background: #4338ca !important;
+}
+
+#jobcardTable .btn-warning {
+    background: #f59e0b !important;
+    color: #fff !important;
+}
+
+#jobcardTable .btn-warning:hover {
+    background: #d97706 !important;
+}
+
+#jobcardTable .btn-success {
+    background: #059669 !important;
+    color: #fff !important;
+}
+
+#jobcardTable .btn-info {
+    background: #06b6d4 !important;
+    color: #fff !important;
+}
+
+/* Status column pills */
+#jobcardTable .badge {
+    border-radius: 20px;
+    font-size: 0.72rem;
+    padding: 3px 10px;
+}
+
+/* DataTable info/pagination inside wrapper */
+.cp-table-section .dataTables_wrapper {
+    padding: 0;
+}
+
+.cp-table-section .dataTables_info {
+    padding: 10px 16px !important;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+.cp-table-section .dataTables_paginate {
+    padding: 8px 16px 14px !important;
+}
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+.dashboardContent .btn {
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.88rem;
+    padding: 0.4rem 1rem;
+    transition: all 0.2s ease;
+}
+
+.dashboardContent .btn-darkpurple {
+    background: #6366f1 !important;
+    border-color: #6366f1 !important;
+    color: #fff !important;
+}
+
+.dashboardContent .btn-darkpurple:hover {
+    background: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+}
+
+.dashboardContent .btn-success {
+    background: #22c55e;
+    border-color: #22c55e;
+}
+
+.dashboardContent .btn-danger {
+    background: #ef4444;
+    border-color: #ef4444;
+}
+
+.dashboardContent .btn-info {
+    background: #06b6d4;
+    border-color: #06b6d4;
+    color: #fff;
+}
+
+.dashboardContent .btn-warning {
+    background: #f59e0b;
+    border-color: #f59e0b;
+}
+
+/* ── Form Controls inside dashboard ─────────────────────────────────────── */
+.dashboardContent .form-control,
+.dashboardContent .form-select,
+.dashboardContent select,
+.dashboardContent input[type="text"] {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    font-size: 0.92rem;
+    padding: 0.4rem 0.75rem;
+    transition: border-color 0.2s;
+}
+
+.dashboardContent .form-control:focus,
+.dashboardContent .form-select:focus,
+.dashboardContent select:focus,
+.dashboardContent input[type="text"]:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    outline: none;
+}
+
+/* ── Scrollbar Styling ──────────────────────────────────────────────────── */
+.sidebar::-webkit-scrollbar,
+.dashboardContent::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.3);
+    border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.5);
+}
+
+/* ── Bold text for important data ───────────────────────────────────────── */
+.bold-amount {
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    font-size: 1rem !important;
+}
+
+.bold-customer {
+    font-weight: 700 !important;
+    color: #1e293b !important;
+}

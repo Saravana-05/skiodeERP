@@ -1,0 +1,225 @@
+/* ── Sidebar collapse ─────────────────────────────────── */
+#sidebar.collapsed {
+    margin-left: -264px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.35s ease-in-out;
+}
+
+.sidebar-logo {
+    padding: 1.15rem 1.5rem;
+}
+
+.sidebar-logo a {
+    color: #e9ecef;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* ── Sidebar nav container ────────────────────────────── */
+.sidebar-nav {
+    padding: 0;
+    width: 100%;
+}
+
+/* ── Ensure sidebar nav fills full width ── */
+.sidebar-nav,
+.sidebar-nav ul,
+.sidebar-dropdown {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+    box-sizing: border-box;
+}
+
+.sidebar-item {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: visible !important;
+}
+
+/* ── Offcanvas body must not clip content ── */
+.offcanvas-body,
+.cp-sidebar .offcanvas-body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    width: 100% !important;
+}
+
+.sidebar-header {
+    color: #e9ecef;
+    font-size: 0.88rem;
+    padding: 1.5rem 1.5rem .375rem;
+}
+
+/* ── Top-level sidebar links ──────────────────────────── */
+a.sidebar-link {
+    padding: 10px 40px 10px 1.625rem;
+    color: #e2e8f0;
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    line-height: 1.8 !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    transition: background 0.18s, color 0.18s;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* ── Collapse arrow ───────────────────────────────────── */
+.sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    transform: rotate(-135deg);
+    transition: all .2s ease-out;
+    flex-shrink: 0;
+}
+
+.sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
+}
+
+/* ── Sidebar item hover ───────────────────────────────── */
+.sidebar-item:hover {
+    background-color: rgba(99, 102, 241, 0.18);
+}
+
+/* ── Dropdown sub-menu items ──────────────────────────── */
+.sidebar-dropdown {
+    background: rgba(0, 0, 0, 0.18);
+}
+
+.sidebar-dropdown .sidebar-item>a.sidebar-link {
+    padding: 8px 40px 8px 32px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #cbd5e1;
+    text-transform: none;
+    letter-spacing: 0.1px;
+    white-space: normal !important;
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    line-height: 1.4;
+    border-left: 2px solid transparent;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px;
+    overflow: visible !important;
+    text-overflow: unset !important;
+}
+
+.sidebar-dropdown .sidebar-item>a.sidebar-link:hover {
+    color: #ffffff;
+    background: rgba(99, 102, 241, 0.22);
+    border-left: 2px solid #6366f1;
+}
+
+/* ── Nested sub-sub-menu items ────────────────────────── */
+.sidebar-dropdown .sidebar-dropdown .sidebar-item>a.sidebar-link {
+    padding-left: 46px;
+    font-size: 0.79rem;
+    font-weight: 600;
+    color: #94a3b8;
+    text-transform: none;
+    border-left: 2px solid transparent;
+}
+
+.sidebar-dropdown .sidebar-dropdown .sidebar-item>a.sidebar-link:hover {
+    color: #ffffff;
+    background: rgba(99, 102, 241, 0.18);
+    border-left: 2px solid #818cf8;
+}
+
+/* Sub-item row hover */
+.sidebar-item>ul>li:hover {
+    background-color: rgba(99, 102, 241, 0.15);
+}
+
+/* ── Active link ──────────────────────────────────────── */
+.sidebar-link.active {
+    background-color: rgba(99, 102, 241, 0.35) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    border-left: 3px solid #6366f1;
+}
+
+/* ── Sidebar icon ─────────────────────────────────────── */
+.sidebar-icon {
+    font-size: 1.1rem !important;
+    flex-shrink: 0;
+    margin-top: 1px;
+    color: #a5b4fc;
+}
+
+.sidebar-link:hover .sidebar-icon,
+.sidebar-link.active .sidebar-icon {
+    color: #ffffff;
+}
+
+/* ── Sidebar brand ────────────────────────────────────── */
+.cp-sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 20px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 6px;
+}
+
+.cp-sidebar-brand img {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.cp-sidebar-brand span {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+
+/* ── Scrollbar ────────────────────────────────────────── */
+.offcanvas-body::-webkit-scrollbar {
+    width: 3px;
+}
+
+.offcanvas-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.offcanvas-body::-webkit-scrollbar-thumb {
+    background: rgba(99, 102, 241, 0.4);
+    border-radius: 3px;
+}
+
+.offcanvas-body::-webkit-scrollbar-thumb:hover {
+    background: #6366f1;
+}
