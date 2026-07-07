@@ -32,3 +32,4 @@ jobs:
             **/*.log
             **/.env
             **/Jose/**
+            **/TCPDF-main/**
