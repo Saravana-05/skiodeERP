@@ -1,4 +1,4 @@
-name: Deploy PHP Website
+name: Deploy Core PHP
 
 on:
   push:
@@ -6,17 +6,66 @@ on:
       - dev
 
 jobs:
-  ftp-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Deploy to cPanel via FTP
+      # Create deploy.zip (excluding vendor)
+      - name: Create deploy.zip
+        run: |
+          zip -r deploy.zip . \
+            -x "vendor/*" \
+            -x ".git/*" \
+            -x ".github/*" \
+            -x "deploy.zip" \
+            -x "vendor.zip"
+
+      # Create vendor.zip
+      - name: Create vendor.zip
+        run: |
+          if [ -d "vendor" ]; then
+            zip -r vendor.zip vendor
+          fi
+
+      # Upload deploy.zip
+      - name: Upload deploy.zip
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_DIR }}
+          protocol: ftp
+          server-dir: /
+          local-dir: ./
+          include: |
+            deploy.zip
+
+      # Upload vendor.zip
+      - name: Upload vendor.zip
+        if: hashFiles('vendor/**') != ''
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          server-dir: /
+          local-dir: ./
+          include: |
+            vendor.zip
+
+      # Upload deploy.php
+      - name: Upload deploy.php
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          server-dir: /
+          local-dir: ./
+          include: |
+            deploy.php
