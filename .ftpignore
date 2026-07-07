@@ -1,0 +1,10 @@
+.git/
+.github/
+.gitignore
+vendor/
+node_modules/
+uploads/
+Jose/
+TCPDF-main/
+*.log
+.env
